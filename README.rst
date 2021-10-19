@@ -2,7 +2,7 @@ Hunting Down a Bug related to Tcl/Tk in Cygwin with Python
 ##########################################################
 
 :author: Friedrich Romstedt
-:date: August 2021
+:date: August 2021, last revised in October 2021
 
 .. contents::
 
@@ -69,15 +69,15 @@ Versions Involved
 
 The current versions in the Cygwin package manager are:
 
-    ``Pillow`` as ``python38-imaging-8.1.2-1`` +
+    ``Pillow-8.1.2``: ``python38-imaging-8.1.2-1`` +
     ``python38-imaging-tk-8.1.2-1``.
 
 Also available via the Cygwin package manager:
 
-    ``Pillow`` as ``python38-imaging-7.2.0-1`` +
+    ``Pillow-7.2.0``: ``python38-imaging-7.2.0-1`` +
     ``python38-imaging-tk-7.2.0-1``.
 
-To be able to compile Pillow in older versions, the following ``-devel``
+To be able to compile Pillow in other versions, the following ``-devel``
 libraries have been made available (based on recommendations given in
 https://github.com/python-pillow/Pillow/issues/2860):
 
@@ -95,12 +95,13 @@ https://github.com/python-pillow/Pillow/issues/2860):
 
 Furthermore I installed:
 
-#.  ``tk-devel-8.6.11-1``;
+#.  ``tcl-devel-8.6.11-1``;
 #.  ``tcl-tk-devel-8.6.11-1``.
 
-in support of ``tk-8.6.11-1`` and ``tcl-8.6.11-1``.
+in support of ``tcl-8.6.11-1`` and ``tcl-tk-8.6.11-1``.
 
-Other versions of ``Pillow`` which have been tried are:
+Other versions of ``Pillow`` which have been tried instead of the ``8.1.2``
+version are:
 
 *   ``Pillow-8.3.1`` (installed from source);
 *   ``Pillow-7.2.0`` (installed per Cygwin as ``python38-imaging-7.2.0-1``
@@ -110,10 +111,85 @@ Other versions of ``Pillow`` which have been tried are:
 
 Other versions of Tcl/Tk which have been given a try are:
 
-*   ``tcl``, ``tcl-devel``, ``tcl-tk`` and ``tcl-devel``, all in version
+*   ``tcl``, ``tcl-devel``, ``tcl-tk`` and ``tcl-tk-devel``, all in version
     ``8.6.8-1`` (via the Cygwin package manager).
-
 
 
 Attempts to Remedy the Defect
 =============================
+
+All this has been worked through in a virtualenv created by::
+
+    $ python -m virtualenv --system-site-packages <dir>
+
+The abovementioned reproduction script fails outside of this virtualenv as
+well.
+
+In the beginning, I assumed that Cygwin doesn't provide Pillow as a
+package, before I realised that it is contained under the name
+``pythonXY-imaging`` and ``pythonXY-imaging-tk``, while only
+``python38-imaging`` was installed.
+
+After after having installed the supporting ``-devel`` packages for
+``libjpeg``, ``zlib``, ``libtiff``, ``libfreetype``, ``libfribidi``,
+``libharfbuzz``, ``libimagequant``, ``libpng``, ``libraqm``, ``tcl``,
+``tcl-tk`` and ``python38``, I installed Pillow inside of the virtualenv
+using::
+
+    $ pip install --upgrade Pillow
+
+This installed Pillow v8.3.1.  From this point on, it was possible to
+import ``ImageTk``::
+
+    >>> form PIL import Image
+    >>> Image.__version__
+    '8.3.1'
+    >>> from PIL import ImageTk
+    (ok)
+
+However attempting to actually *use* ``ImageTk`` failed with the
+abovementioned traceback.
+
+At this point, I realised that there are Cygwin packages called
+``python38-imaging`` and ``python38-imaging-tk``, so I uninstalled Pillow
+in the virtualenv::
+
+    $ pip uninstall Pillow
+
+and installed ``python38-imaging-tk`` via the Cygwin package installer.
+This incured no more dependencies, however the traceback remained present.
+
+The Cygwin package manager offers aside of ``python38-{imaging,
+imaging-tk}-8.1.2-1`` also ``7.2.0-1`` version of these packages.  I tried
+these, to no avail.
+
+Next, I tried the latest version of the 6.x series of Pillow
+(https://pillow.readthedocs.io/en/stable/releasenotes/index.html)::
+
+    $ pip install Pillow==6.2.2
+    > (ok)
+
+where the traceback persists.  Furthermore I tried Pillow-5.4.1 (the latest
+5.x version)::
+
+    $ pip install Pillow==5.4.1
+    > matplotlib 3.3.3 requires pillow>=6.2.0, but you have pillow 5.4.1 which is incompatible.
+    > (otherwise ok)
+
+which was still dysfunctional.
+
+At this moment, I suspected that the reason of the error observed might be
+outside of Pillow, so I uninstalled the custom-made Pillow from the
+virtualenv::
+
+    $ pip uninstall Pillow
+
+and upgraded the Cygwin-installed Pillow version back to ``8.1.2-1``,
+intending to change tcl/tk library versions.
+
+The Cygwin package manager offers ``tcl``, ``tcl-devel``, ``tck-tk`` and
+``tcl-tk-devel`` in versions ``8.6.11-1`` and ``8.6.8-1``.  I hence
+downgraded from ``8.6.11-1`` to ``8.6.8-1``, however once more to no avail.
+
+Having reached the end of my wits at this point, I found myself writing up
+this summary document to turn towards upstream.
