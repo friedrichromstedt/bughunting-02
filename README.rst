@@ -1,5 +1,5 @@
-Hunting Down a Bug related to Tcl/Tk in Cygwin with Python
-##########################################################
+Hunting Down a Bug related to ImageTk in Python on Cygwin
+#########################################################
 
 :author: Friedrich Romstedt
 :date: August 2021, last revised in October 2021
