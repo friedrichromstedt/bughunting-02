@@ -198,10 +198,10 @@ Having reached the end of my wits at this point, I found myself writing up
 this summary document to turn towards upstream.
 
 
-.. rubric:: 21 October 2021
+**--- 21 October 2021 ---**
 
 
-.. note:: 
+*Note*:
 
     From here on, logs are written in the ``/Logs/`` directory of the
     repo this files resides in.  They are referenced before the command
