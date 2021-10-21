@@ -1,0 +1,21 @@
+Cwd: /volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/virtualenv
+Command: pip install --upgrade Pillow
+
+Requirement already satisfied: Pillow in /usr/lib/python3.8/site-packages (8.1.2)
+Collecting Pillow
+  Downloading Pillow-8.4.0.tar.gz (49.4 MB)
+Building wheels for collected packages: Pillow
+  Building wheel for Pillow (setup.py): started
+  Building wheel for Pillow (setup.py): still running...
+  Building wheel for Pillow (setup.py): finished with status 'done'
+  Created wheel for Pillow: filename=Pillow-8.4.0-cp38-cp38-cygwin_3_2_0_x86_64.whl size=1254108 sha256=ba0cdb5c04f693af200e2b50eb33145d8f58b806b70db1d16a0d61db99a6e2d4
+  Stored in directory: /home/Friedrich/.cache/pip/wheels/11/7a/78/3db63f4cb41c790e74beda816cb05f5e2d54bbe70c3e562c53
+Successfully built Pillow
+Installing collected packages: Pillow
+  Attempting uninstall: Pillow
+    Found existing installation: Pillow 8.1.2
+    Not uninstalling pillow at /usr/lib/python3.8/site-packages, outside environment /volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/virtualenv/2021-10-21_0918
+    Can't uninstall 'Pillow'. No files were found to uninstall.
+Successfully installed Pillow-8.4.0
+WARNING: You are using pip version 20.3.1; however, version 21.3 is available.
+You should consider upgrading via the '/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/virtualenv/2021-10-21_0918/bin/python -m pip install --upgrade pip' command.

@@ -118,6 +118,9 @@ Other versions of Tcl/Tk which have been given a try are:
 Attempts to Remedy the Defect
 =============================
 
+Upgrading/Downgrading Pillow
+----------------------------
+
 All this has been worked through in a virtualenv created by::
 
     $ python -m virtualenv --system-site-packages <dir>
@@ -193,3 +196,77 @@ downgraded from ``8.6.11-1`` to ``8.6.8-1``, however once more to no avail.
 
 Having reached the end of my wits at this point, I found myself writing up
 this summary document to turn towards upstream.
+
+
+.. rubric:: 21 October 2021
+
+
+.. note:: 
+
+    From here on, logs are written in the ``/Logs/`` directory of the
+    repo this files resides in.  They are referenced before the command
+    which is logged, e.g.::
+
+        [b01] $ pip install --upgrade Pillow
+
+    is logged in the file within ``/Logs/`` starting with ``b01``.
+
+
+Upgrading ``freetype2`` and ``harfbuzz``
+----------------------------------------
+
+Upgraded ``libfreetype2`` and ``libfreetype-devel`` from ``2.11.0-1`` to
+``2.11.0-2`` (released 19 October 2021).
+
+Upgraded also ``girepository-Harfbuzz0.0``, ``libharfbuzz-devel``,
+``libharfbuzz-gobject0`` and ``libharfbuzz0`` from ``2.9.0-1`` to
+``2.9.0-2`` (released 19 October 2021 as well).
+
+All this has been to no avail.
+
+
+Downgrading ``freetype2`` and ``harfbuzz``
+------------------------------------------
+
+The Cygwin installer permits downgrading the ``freetype2`` packages to
+``2.10.4-2`` and the ``harfbuzz`` packages to ``2.8.1-1``.
+
+This did not help either, the problem persisted in its familiar form.
+
+Reverted the downgrades.
+
+
+Building ``Pillow`` *without* ``freetype2`` and ``harfbuzz``
+------------------------------------------------------------
+
+Removed ``libfreetype-devel``, ``libharfbuzz-devel`` and ``libraqm-devel``
+(``libraqm`` *requires* ``libfreetype-devel``).
+
+Derived a virtualenv per::
+
+    $ python -m virtualenv --system-site-packages --no-periodic-update 2021-10-21_0918
+
+Built in this virtualenv ``Pillow`` per::
+
+    [b01] $ pip install --upgrade Pillow
+    > (Pillow 8.1.2 in /usr/lib/python3.8/site-packages/ remains untouched)
+    > (otherwise ok)
+
+Verified that in this virtualenv the new ``Pillow-8.4.0`` is used::
+
+    $ python
+    >>> import PIL
+    >>> PIL.__version__
+    '8.4.0'
+    (ok)
+
+Ran via this virtualenv the file ``/reproduce.py``::
+
+    [b02] $ python reproduce.py
+    (same error as before)
+
+Restarted the machine, activated the virtualenv and ran the script again:
+The error has been reproduced.
+
+Reinstalled ``libfreetype-devel-2.11.0-2``, ``libharfbuzz-devel-2.9.0-2``
+and ``libraqm-devel-0.7.0-1``.

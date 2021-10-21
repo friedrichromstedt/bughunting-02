@@ -551,7 +551,13 @@ table.text > tbody > tr > td, table.text > thead > tr > th {
 <ul class="simple">
 <li><a class="reference internal" href="#description-of-the-bug-and-of-the-expected-behaviour" id="id1">Description of the Bug and of the Expected Behaviour</a></li>
 <li><a class="reference internal" href="#versions-involved" id="id2">Versions Involved</a></li>
-<li><a class="reference internal" href="#attempts-to-remedy-the-defect" id="id3">Attempts to Remedy the Defect</a></li>
+<li><a class="reference internal" href="#attempts-to-remedy-the-defect" id="id3">Attempts to Remedy the Defect</a><ul>
+<li><a class="reference internal" href="#upgrading-downgrading-pillow" id="id4">Upgrading/Downgrading Pillow</a></li>
+<li><a class="reference internal" href="#upgrading-freetype2-and-harfbuzz" id="id5">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+<li><a class="reference internal" href="#downgrading-freetype2-and-harfbuzz" id="id6">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+<li><a class="reference internal" href="#building-pillow-without-freetype2-and-harfbuzz" id="id7">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="section" id="description-of-the-bug-and-of-the-expected-behaviour">
@@ -653,6 +659,8 @@ version are:</p>
 </div>
 <div class="section" id="attempts-to-remedy-the-defect">
 <h1><a class="toc-backref" href="#id3">Attempts to Remedy the Defect</a></h1>
+<div class="section" id="upgrading-downgrading-pillow">
+<h2><a class="toc-backref" href="#id4">Upgrading/Downgrading Pillow</a></h2>
 <p>All this has been worked through in a virtualenv created by:</p>
 <pre class="literal-block">
 $ python -m virtualenv --system-site-packages &lt;dir&gt;
@@ -720,6 +728,66 @@ intending to change tcl/tk library versions.</p>
 downgraded from <tt class="docutils literal"><span class="pre">8.6.11-1</span></tt> to <tt class="docutils literal"><span class="pre">8.6.8-1</span></tt>, however once more to no avail.</p>
 <p>Having reached the end of my wits at this point, I found myself writing up
 this summary document to turn towards upstream.</p>
+<p class="rubric">21 October 2021</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>From here on, logs are written in the <tt class="docutils literal">/Logs/</tt> directory of the
+repo this files resides in.  They are referenced before the command
+which is logged, e.g.:</p>
+<pre class="literal-block">
+[b01] $ pip install --upgrade Pillow
+</pre>
+<p class="last">is logged in the file within <tt class="docutils literal">/Logs/</tt> starting with <tt class="docutils literal">b01</tt>.</p>
+</div>
+</div>
+<div class="section" id="upgrading-freetype2-and-harfbuzz">
+<h2><a class="toc-backref" href="#id5">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<p>Upgraded <tt class="docutils literal">libfreetype2</tt> and <tt class="docutils literal"><span class="pre">libfreetype-devel</span></tt> from <tt class="docutils literal"><span class="pre">2.11.0-1</span></tt> to
+<tt class="docutils literal"><span class="pre">2.11.0-2</span></tt> (released 19 October 2021).</p>
+<p>Upgraded also <tt class="docutils literal"><span class="pre">girepository-Harfbuzz0.0</span></tt>, <tt class="docutils literal"><span class="pre">libharfbuzz-devel</span></tt>,
+<tt class="docutils literal"><span class="pre">libharfbuzz-gobject0</span></tt> and <tt class="docutils literal">libharfbuzz0</tt> from <tt class="docutils literal"><span class="pre">2.9.0-1</span></tt> to
+<tt class="docutils literal"><span class="pre">2.9.0-2</span></tt> (released 19 October 2021 as well).</p>
+<p>All this has been to no avail.</p>
+</div>
+<div class="section" id="downgrading-freetype2-and-harfbuzz">
+<h2><a class="toc-backref" href="#id6">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<p>The Cygwin installer permits downgrading the <tt class="docutils literal">freetype2</tt> packages to
+<tt class="docutils literal"><span class="pre">2.10.4-2</span></tt> and the <tt class="docutils literal">harfbuzz</tt> packages to <tt class="docutils literal"><span class="pre">2.8.1-1</span></tt>.</p>
+<p>This did not help either, the problem persisted in its familiar form.</p>
+<p>Reverted the downgrades.</p>
+</div>
+<div class="section" id="building-pillow-without-freetype2-and-harfbuzz">
+<h2><a class="toc-backref" href="#id7">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<p>Removed <tt class="docutils literal"><span class="pre">libfreetype-devel</span></tt>, <tt class="docutils literal"><span class="pre">libharfbuzz-devel</span></tt> and <tt class="docutils literal"><span class="pre">libraqm-devel</span></tt>
+(<tt class="docutils literal">libraqm</tt> <em>requires</em> <tt class="docutils literal"><span class="pre">libfreetype-devel</span></tt>).</p>
+<p>Derived a virtualenv per:</p>
+<pre class="literal-block">
+$ python -m virtualenv --system-site-packages --no-periodic-update 2021-10-21_0918
+</pre>
+<p>Built in this virtualenv <tt class="docutils literal">Pillow</tt> per:</p>
+<pre class="literal-block">
+[b01] $ pip install --upgrade Pillow
+&gt; (Pillow 8.1.2 in /usr/lib/python3.8/site-packages/ remains untouched)
+&gt; (otherwise ok)
+</pre>
+<p>Verified that in this virtualenv the new <tt class="docutils literal"><span class="pre">Pillow-8.4.0</span></tt> is used:</p>
+<pre class="literal-block">
+$ python
+&gt;&gt;&gt; import PIL
+&gt;&gt;&gt; PIL.__version__
+'8.4.0'
+(ok)
+</pre>
+<p>Ran via this virtualenv the file <tt class="docutils literal">/reproduce.py</tt>:</p>
+<pre class="literal-block">
+[b02] $ python reproduce.py
+(same error as before)
+</pre>
+<p>Restarted the machine, activated the virtualenv and ran the script again:
+The error has been reproduced.</p>
+<p>Reinstalled <tt class="docutils literal"><span class="pre">libfreetype-devel-2.11.0-2</span></tt>, <tt class="docutils literal"><span class="pre">libharfbuzz-devel-2.9.0-2</span></tt>
+and <tt class="docutils literal"><span class="pre">libraqm-devel-0.7.0-1</span></tt>.</p>
+</div>
 </div>
 </div>
 </body>

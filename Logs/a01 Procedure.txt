@@ -1,0 +1,56 @@
+.. vim: syntax=rst
+
+
+.. rubric:: 21 October 2021
+
+
+*   Upgraded ``libfreetype2`` and ``libfreetype-devel`` from ``2.11.0-1``
+    to ``2.11.0-2``.
+
+    Upgraded ``girepository-Harfbuzz0.0``, ``libharfbuzz-devel``,
+    ``libharfbuzz-gobject0`` and ``libharfbuzz0`` from ``2.9.0-1`` to
+    ``2.9.0-2``.
+
+    All this is to no avail.
+
+*   Downgrading the ``freetype2`` packages to ``2.10.4-2`` and the
+    ``harfbuzz`` packages to ``2.8.1-1``.
+
+    This did not help either, the problem persists in its familiar form.
+
+    Reverting the downgrades.
+
+*   Removing ``libfreetype-devel`` and ``libharfbuzz-devel``.
+
+    ``libraqm-devel-0.7.0-1`` requires ``libfreetype-devel``.
+    Deinstalling ``libraqm-devel`` as well.
+
+    Deriving a virtualenv per::
+
+        $ python -m virtualenv --system-site-packages --no-periodic-update 2021-10-21_0918
+
+    Building in this virtualenv ``Pillow`` per::
+
+        [b01] $ pip install --upgrade Pillow
+        > (Pillow 8.1.2 in /usr/lib/python3.8/site-packages/ remains
+        > untouched)
+        > (otherwise ok)
+
+    Verifying that in this virtualenv ``Pillow-8.4.0`` is used::
+
+        $ python
+        >>> import PIL
+        >>> PIL.__version__
+        '8.4.0'
+        (ok)
+
+    Running via this virtualenv :file:`/reproduce.py`::
+
+        [b02] $ python reproduce.py
+        (same error as before)
+
+    Restarted the machine, activated the virtualenv and ran the script
+    again: The error is reproduced.
+
+    Reinstalling ``libfreetype-devel-2.11.0-2``,
+    ``libharfbuzz-devel-2.9.0-2`` and ``libraqm-devel-0.7.0-1``.
