@@ -200,6 +200,8 @@ this summary document to turn towards upstream.
 
 **--- 21 October 2021 ---**
 
+Upgrading ``freetype2`` and ``harfbuzz``
+----------------------------------------
 
 *Note*:
 
@@ -210,10 +212,6 @@ this summary document to turn towards upstream.
         [b01] $ pip install --upgrade Pillow
 
     is logged in the file within ``/Logs/`` starting with ``b01``.
-
-
-Upgrading ``freetype2`` and ``harfbuzz``
-----------------------------------------
 
 Upgraded ``libfreetype2`` and ``libfreetype-devel`` from ``2.11.0-1`` to
 ``2.11.0-2`` (released 19 October 2021).
