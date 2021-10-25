@@ -20,7 +20,7 @@ However, when attempting to use ``PIL.ImageTk`` with Cygwin in October 2021
 (on Windows 10), one is presented with a traceback instead.
 This article describes the observed behaviour and some attempts to remedy
 the defect.
-None of these attempts lead to success.  They also did not reveal any hint
+None of these attempts led to success.  They also did not reveal any hint
 on where the reason of the dysfunction might originate from.
 It is still not clear whether the error can be repoduced on other machines.
 This repository provides a self-contained Python script intended to
