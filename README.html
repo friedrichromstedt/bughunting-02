@@ -549,19 +549,39 @@ table.text > tbody > tr > td, table.text > thead > tr > th {
 <div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#description-of-the-bug-and-of-the-expected-behaviour" id="id1">Description of the Bug and of the Expected Behaviour</a></li>
-<li><a class="reference internal" href="#versions-involved" id="id2">Versions Involved</a></li>
-<li><a class="reference internal" href="#attempts-to-remedy-the-defect" id="id3">Attempts to Remedy the Defect</a><ul>
-<li><a class="reference internal" href="#upgrading-downgrading-pillow" id="id4">Upgrading/Downgrading Pillow</a></li>
-<li><a class="reference internal" href="#upgrading-freetype2-and-harfbuzz" id="id5">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
-<li><a class="reference internal" href="#downgrading-freetype2-and-harfbuzz" id="id6">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
-<li><a class="reference internal" href="#building-pillow-without-freetype2-and-harfbuzz" id="id7">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+<li><a class="reference internal" href="#summary" id="id1">Summary</a></li>
+<li><a class="reference internal" href="#description-of-the-bug-and-of-the-expected-behaviour" id="id2">Description of the Bug and of the Expected Behaviour</a></li>
+<li><a class="reference internal" href="#versions-involved" id="id3">Versions Involved</a></li>
+<li><a class="reference internal" href="#attempts-to-remedy-the-defect" id="id4">Attempts to Remedy the Defect</a><ul>
+<li><a class="reference internal" href="#upgrading-downgrading-pillow" id="id5">Upgrading/Downgrading Pillow</a></li>
+<li><a class="reference internal" href="#upgrading-freetype2-and-harfbuzz" id="id6">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+<li><a class="reference internal" href="#downgrading-freetype2-and-harfbuzz" id="id7">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+<li><a class="reference internal" href="#building-pillow-without-freetype2-and-harfbuzz" id="id8">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
 </ul>
 </li>
 </ul>
 </div>
+<div class="section" id="summary">
+<h1><a class="toc-backref" href="#id1">Summary</a></h1>
+<p><a class="reference external" href="https://github.com/python-pillow/Pillow">Pillow</a> is a library to work
+with raster images in Python.
+It provides a package <a class="reference external" href="https://pillow.readthedocs.io/en/stable/reference/ImageTk.html">PIL.ImageTk</a>, used to
+create <tt class="docutils literal">tkinter</tt> compatible image objects.  These objects can be used to
+display <tt class="docutils literal">PIL</tt> images in a tkinter GUI.
+However, when attempting to use <tt class="docutils literal">PIL.ImageTk</tt> with Cygwin in October 2021
+(on Windows 10), one is presented with a traceback instead.
+This article describes the observed behaviour and some attempts to remedy
+the defect.
+None of these attempts lead to success.  They also did not reveal any hint
+on where the reason of the dysfunction might originate from.
+It is still not clear whether the error can be repoduced on other machines.
+This repository provides a self-contained Python script intended to
+reproduce the exception.  The repository is maintained separate from any
+upstream tracker until the piece of software triggering the failure is
+identified.</p>
+</div>
 <div class="section" id="description-of-the-bug-and-of-the-expected-behaviour">
-<h1><a class="toc-backref" href="#id1">Description of the Bug and of the Expected Behaviour</a></h1>
+<h1><a class="toc-backref" href="#id2">Description of the Bug and of the Expected Behaviour</a></h1>
 <p>The bug turns up when trying to display a PIL/Pillow Image in a
 <tt class="docutils literal">tkinter.Canvas</tt> using <tt class="docutils literal">PIL.ImageTk</tt> in Cygwin:</p>
 <pre class="code python literal-block">
@@ -611,7 +631,7 @@ traceback is produced instead:</p>
 </pre>
 </div>
 <div class="section" id="versions-involved">
-<h1><a class="toc-backref" href="#id2">Versions Involved</a></h1>
+<h1><a class="toc-backref" href="#id3">Versions Involved</a></h1>
 <p>The current versions in the Cygwin package manager are:</p>
 <blockquote>
 <tt class="docutils literal"><span class="pre">Pillow-8.1.2</span></tt>: <tt class="docutils literal"><span class="pre">python38-imaging-8.1.2-1</span></tt> +
@@ -658,9 +678,9 @@ version are:</p>
 </ul>
 </div>
 <div class="section" id="attempts-to-remedy-the-defect">
-<h1><a class="toc-backref" href="#id3">Attempts to Remedy the Defect</a></h1>
+<h1><a class="toc-backref" href="#id4">Attempts to Remedy the Defect</a></h1>
 <div class="section" id="upgrading-downgrading-pillow">
-<h2><a class="toc-backref" href="#id4">Upgrading/Downgrading Pillow</a></h2>
+<h2><a class="toc-backref" href="#id5">Upgrading/Downgrading Pillow</a></h2>
 <p>All this has been worked through in a virtualenv created by:</p>
 <pre class="literal-block">
 $ python -m virtualenv --system-site-packages &lt;dir&gt;
@@ -731,7 +751,7 @@ this summary document to turn towards upstream.</p>
 <p><strong>--- 21 October 2021 ---</strong></p>
 </div>
 <div class="section" id="upgrading-freetype2-and-harfbuzz">
-<h2><a class="toc-backref" href="#id5">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<h2><a class="toc-backref" href="#id6">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
 <p><em>Note</em>:</p>
 <blockquote>
 <p>From here on, logs are written in the <tt class="docutils literal">/Logs/</tt> directory of the
@@ -750,14 +770,14 @@ which is logged, e.g.:</p>
 <p>All this has been to no avail.</p>
 </div>
 <div class="section" id="downgrading-freetype2-and-harfbuzz">
-<h2><a class="toc-backref" href="#id6">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<h2><a class="toc-backref" href="#id7">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
 <p>The Cygwin installer permits downgrading the <tt class="docutils literal">freetype2</tt> packages to
 <tt class="docutils literal"><span class="pre">2.10.4-2</span></tt> and the <tt class="docutils literal">harfbuzz</tt> packages to <tt class="docutils literal"><span class="pre">2.8.1-1</span></tt>.</p>
 <p>This did not help either, the problem persisted in its familiar form.</p>
 <p>Reverted the downgrades.</p>
 </div>
 <div class="section" id="building-pillow-without-freetype2-and-harfbuzz">
-<h2><a class="toc-backref" href="#id7">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<h2><a class="toc-backref" href="#id8">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
 <p>Removed <tt class="docutils literal"><span class="pre">libfreetype-devel</span></tt>, <tt class="docutils literal"><span class="pre">libharfbuzz-devel</span></tt> and <tt class="docutils literal"><span class="pre">libraqm-devel</span></tt>
 (<tt class="docutils literal">libraqm</tt> <em>requires</em> <tt class="docutils literal"><span class="pre">libfreetype-devel</span></tt>).</p>
 <p>Derived a virtualenv per:</p>

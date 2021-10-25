@@ -7,6 +7,28 @@ Hunting Down a Bug related to ImageTk in Python on Cygwin
 .. contents::
 
 
+Summary
+=======
+
+`Pillow <https://github.com/python-pillow/Pillow>`_ is a library to work
+with raster images in Python.
+It provides a package `PIL.ImageTk
+<https://pillow.readthedocs.io/en/stable/reference/ImageTk.html>`_, used to
+create ``tkinter`` compatible image objects.  These objects can be used to
+display ``PIL`` images in a tkinter GUI.
+However, when attempting to use ``PIL.ImageTk`` with Cygwin in October 2021
+(on Windows 10), one is presented with a traceback instead.
+This article describes the observed behaviour and some attempts to remedy
+the defect.
+None of these attempts lead to success.  They also did not reveal any hint
+on where the reason of the dysfunction might originate from.
+It is still not clear whether the error can be repoduced on other machines.
+This repository provides a self-contained Python script intended to
+reproduce the exception.  The repository is maintained separate from any
+upstream tracker until the piece of software triggering the failure is
+identified.
+
+
 Description of the Bug and of the Expected Behaviour
 ====================================================
 
