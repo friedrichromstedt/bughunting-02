@@ -326,16 +326,16 @@ Diagnostic output as requested in a `Comment by DWesl on 25 October 16:43
 
     1.  Running ``cygcheck``:
 
-        a.  ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e01]
+        a.  on ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e01]
             <Logs/e01%20cygcheck%20.__imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
 
-        b.  All ``.dll`` files: `[e02] <Logs/e02%20cygcheck%20.__.dll.txt>`_
+        b.  on all ``.dll`` files: `[e02] <Logs/e02%20cygcheck%20.__.dll.txt>`_
 
     2.  Checking executability: `[e03] <Logs/e03%20ls%20-l%20_.dll.txt>`_
 
     3.  Running ``ldd``:
 
-        a.  ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e04]
+        a.  on ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e04]
             <Logs/e04%20ldd%20_imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
 
-        b.  All ``.dll`` files: `[e05] <Logs/e05%20ldd%20_.dll.txt>`_
+        b.  on all ``.dll`` files: `[e05] <Logs/e05%20ldd%20_.dll.txt>`_
