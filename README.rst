@@ -306,7 +306,7 @@ to gather additional information (`#5974
 --------------------------------------------------------------------------------------------------------------------
 
 *   The output of ``cygcheck -svr`` is provided in file
-    `[c01] <Logs/c01\ cygcheck\ -svr.txt>`_.
+    `[c01] <Logs/c01%20cygcheck%20-svr.txt>`_.
 
 *   Running ``python [-v[v]] -c 'import PIL._imagingtk'`` produces the
     following output:
