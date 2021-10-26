@@ -311,29 +311,29 @@ to gather additional information (`#5974
 *   Running ``python [-v[v]] -c 'import PIL._imagingtk'`` produces the
     following output:
 
-    1.  ``python -c 'import PIL._imagingtk'``: `[d01] <Logs/d01\ python\ -c\
-        import\ PIL._imagingtk.txt>`_
+    1.  ``python -c 'import PIL._imagingtk'``: `[d01]
+        <Logs/d01%20python%20-c%20import%20PIL._imagingtk.txt>`_
 
-    2.  ``python -v -c 'import PIL._imagingtk'``: `[d02] <Logs/d02\ python\
-        -v\ -c\ import\ PIL._imagingtk.txt>`_
+    2.  ``python -v -c 'import PIL._imagingtk'``: `[d02]
+        <Logs/d02%20python%20-v%20-c%20import%20PIL._imagingtk.txt>`_
 
-    3.  ``python -vv -c 'import PIL._imagingtk'``: `[d03] <Logs/d03\ python\
-        -vv\ -c\ import\ PIL._imagingtk.txt>`_
+    3.  ``python -vv -c 'import PIL._imagingtk'``: `[d03]
+        <Logs/d03%20python%20-vv%20-c%20import%20PIL._imagingtk.txt>`_
 
 *   Checking the extension DLLs:
 
     1.  Running ``cygcheck``:
 
-        a.  ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e01] <Logs/e01\
-            cygcheck\ .__imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
+        a.  ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e01]
+            <Logs/e01%20cygcheck%20.__imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
 
-        b.  All ``.dll`` files: `[e02] <Logs/e02\ cygcheck\ .__.dll.txt>`_
+        b.  All ``.dll`` files: `[e02] <Logs/e02%20cygcheck%20.__.dll.txt>`_
 
-    2.  Checking executability: `[e03] <Logs/e03\ ls\ -l\ _.dll.txt>`_
+    2.  Checking executability: `[e03] <Logs/e03%20ls%20-l%20_.dll.txt>`_
 
     3.  Running ``ldd``:
 
-        a.  ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e04] <Logs/e04\
-            ldd\ _imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
+        a.  ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e04]
+            <Logs/e04%20ldd%20_imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
 
-        b.  All ``.dll`` files: `[e05] <Logs/e05\ ldd\ _.dll.txt>`_
+        b.  All ``.dll`` files: `[e05] <Logs/e05%20ldd%20_.dll.txt>`_
