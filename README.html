@@ -549,20 +549,24 @@ table.text > tbody > tr > td, table.text > thead > tr > th {
 <div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#summary" id="id1">Summary</a></li>
-<li><a class="reference internal" href="#description-of-the-bug-and-of-the-expected-behaviour" id="id2">Description of the Bug and of the Expected Behaviour</a></li>
-<li><a class="reference internal" href="#versions-involved" id="id3">Versions Involved</a></li>
-<li><a class="reference internal" href="#attempts-to-remedy-the-defect" id="id4">Attempts to Remedy the Defect</a><ul>
-<li><a class="reference internal" href="#upgrading-downgrading-pillow" id="id5">Upgrading/Downgrading Pillow</a></li>
-<li><a class="reference internal" href="#upgrading-freetype2-and-harfbuzz" id="id6">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
-<li><a class="reference internal" href="#downgrading-freetype2-and-harfbuzz" id="id7">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
-<li><a class="reference internal" href="#building-pillow-without-freetype2-and-harfbuzz" id="id8">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+<li><a class="reference internal" href="#summary" id="id4">Summary</a></li>
+<li><a class="reference internal" href="#description-of-the-bug-and-of-the-expected-behaviour" id="id5">Description of the Bug and of the Expected Behaviour</a></li>
+<li><a class="reference internal" href="#versions-involved" id="id6">Versions Involved</a></li>
+<li><a class="reference internal" href="#attempts-to-remedy-the-defect" id="id7">Attempts to Remedy the Defect</a><ul>
+<li><a class="reference internal" href="#upgrading-downgrading-pillow" id="id8">Upgrading/Downgrading Pillow</a></li>
+<li><a class="reference internal" href="#upgrading-freetype2-and-harfbuzz" id="id9">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+<li><a class="reference internal" href="#downgrading-freetype2-and-harfbuzz" id="id10">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+<li><a class="reference internal" href="#building-pillow-without-freetype2-and-harfbuzz" id="id11">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#diagnosing-the-problem-with-pillow-upstream" id="id12">Diagnosing the Problem with Pillow Upstream</a><ul>
+<li><a class="reference internal" href="#id3" id="id13">Comment by DWesl on 25 October 16:43</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="section" id="summary">
-<h1><a class="toc-backref" href="#id1">Summary</a></h1>
+<h1><a class="toc-backref" href="#id4">Summary</a></h1>
 <p><a class="reference external" href="https://github.com/python-pillow/Pillow">Pillow</a> is a library to work
 with raster images in Python.
 It provides a package <a class="reference external" href="https://pillow.readthedocs.io/en/stable/reference/ImageTk.html">PIL.ImageTk</a>, used to
@@ -581,7 +585,7 @@ upstream tracker until the piece of software triggering the failure is
 identified.</p>
 </div>
 <div class="section" id="description-of-the-bug-and-of-the-expected-behaviour">
-<h1><a class="toc-backref" href="#id2">Description of the Bug and of the Expected Behaviour</a></h1>
+<h1><a class="toc-backref" href="#id5">Description of the Bug and of the Expected Behaviour</a></h1>
 <p>The bug turns up when trying to display a PIL/Pillow Image in a
 <tt class="docutils literal">tkinter.Canvas</tt> using <tt class="docutils literal">PIL.ImageTk</tt> in Cygwin:</p>
 <pre class="code python literal-block">
@@ -631,7 +635,7 @@ traceback is produced instead:</p>
 </pre>
 </div>
 <div class="section" id="versions-involved">
-<h1><a class="toc-backref" href="#id3">Versions Involved</a></h1>
+<h1><a class="toc-backref" href="#id6">Versions Involved</a></h1>
 <p>The current versions in the Cygwin package manager are:</p>
 <blockquote>
 <tt class="docutils literal"><span class="pre">Pillow-8.1.2</span></tt>: <tt class="docutils literal"><span class="pre">python38-imaging-8.1.2-1</span></tt> +
@@ -678,9 +682,9 @@ version are:</p>
 </ul>
 </div>
 <div class="section" id="attempts-to-remedy-the-defect">
-<h1><a class="toc-backref" href="#id4">Attempts to Remedy the Defect</a></h1>
+<h1><a class="toc-backref" href="#id7">Attempts to Remedy the Defect</a></h1>
 <div class="section" id="upgrading-downgrading-pillow">
-<h2><a class="toc-backref" href="#id5">Upgrading/Downgrading Pillow</a></h2>
+<h2><a class="toc-backref" href="#id8">Upgrading/Downgrading Pillow</a></h2>
 <p>All this has been worked through in a virtualenv created by:</p>
 <pre class="literal-block">
 $ python -m virtualenv --system-site-packages &lt;dir&gt;
@@ -751,7 +755,7 @@ this summary document to turn towards upstream.</p>
 <p><strong>--- 21 October 2021 ---</strong></p>
 </div>
 <div class="section" id="upgrading-freetype2-and-harfbuzz">
-<h2><a class="toc-backref" href="#id6">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<h2><a class="toc-backref" href="#id9">Upgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
 <p><em>Note</em>:</p>
 <blockquote>
 <p>From here on, logs are written in the <tt class="docutils literal">/Logs/</tt> directory of the
@@ -770,14 +774,14 @@ which is logged, e.g.:</p>
 <p>All this has been to no avail.</p>
 </div>
 <div class="section" id="downgrading-freetype2-and-harfbuzz">
-<h2><a class="toc-backref" href="#id7">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<h2><a class="toc-backref" href="#id10">Downgrading <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
 <p>The Cygwin installer permits downgrading the <tt class="docutils literal">freetype2</tt> packages to
 <tt class="docutils literal"><span class="pre">2.10.4-2</span></tt> and the <tt class="docutils literal">harfbuzz</tt> packages to <tt class="docutils literal"><span class="pre">2.8.1-1</span></tt>.</p>
 <p>This did not help either, the problem persisted in its familiar form.</p>
 <p>Reverted the downgrades.</p>
 </div>
 <div class="section" id="building-pillow-without-freetype2-and-harfbuzz">
-<h2><a class="toc-backref" href="#id8">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
+<h2><a class="toc-backref" href="#id11">Building <tt class="docutils literal">Pillow</tt> <em>without</em> <tt class="docutils literal">freetype2</tt> and <tt class="docutils literal">harfbuzz</tt></a></h2>
 <p>Removed <tt class="docutils literal"><span class="pre">libfreetype-devel</span></tt>, <tt class="docutils literal"><span class="pre">libharfbuzz-devel</span></tt> and <tt class="docutils literal"><span class="pre">libraqm-devel</span></tt>
 (<tt class="docutils literal">libraqm</tt> <em>requires</em> <tt class="docutils literal"><span class="pre">libfreetype-devel</span></tt>).</p>
 <p>Derived a virtualenv per:</p>
@@ -807,6 +811,40 @@ $ python
 The error has been reproduced.</p>
 <p>Reinstalled <tt class="docutils literal"><span class="pre">libfreetype-devel-2.11.0-2</span></tt>, <tt class="docutils literal"><span class="pre">libharfbuzz-devel-2.9.0-2</span></tt>
 and <tt class="docutils literal"><span class="pre">libraqm-devel-0.7.0-1</span></tt>.</p>
+<p><strong>--- 26 October 2021 ---</strong></p>
+</div>
+</div>
+<div class="section" id="diagnosing-the-problem-with-pillow-upstream">
+<h1><a class="toc-backref" href="#id12">Diagnosing the Problem with Pillow Upstream</a></h1>
+<p>I filed an Issue with <a class="reference external" href="https://github.com/python-pillow/Pillow">Pillow</a>
+to gather additional information (<a class="reference external" href="https://github.com/python-pillow/Pillow/issues/5795">#5974</a>).</p>
+<div class="section" id="id3">
+<h2><a class="reference external" href="https://github.com/python-pillow/Pillow/issues/5795#issuecomment-951001258">Comment by DWesl on 25 October 16:43</a></h2>
+<ul class="simple">
+<li>The output of <tt class="docutils literal">cygcheck <span class="pre">-svr</span></tt> is provided in file
+<a class="reference external" href="Logs/c01 cygcheck -svr.txt">[c01]</a>.</li>
+<li>Running <tt class="docutils literal">python <span class="pre">[-v[v]]</span> <span class="pre">-c</span> 'import PIL._imagingtk'</tt> produces the
+following output:<ol class="arabic">
+<li><tt class="docutils literal">python <span class="pre">-c</span> 'import PIL._imagingtk'</tt>: <a class="reference external" href="Logs/d01 python -c import PIL._imagingtk.txt">[d01]</a></li>
+<li><tt class="docutils literal">python <span class="pre">-v</span> <span class="pre">-c</span> 'import PIL._imagingtk'</tt>: <a class="reference external" href="Logs/d02 python -v -c import PIL._imagingtk.txt">[d02]</a></li>
+<li><tt class="docutils literal">python <span class="pre">-vv</span> <span class="pre">-c</span> 'import PIL._imagingtk'</tt>: <a class="reference external" href="Logs/d03 python -vv -c import PIL._imagingtk.txt">[d03]</a></li>
+</ol>
+</li>
+<li>Checking the extension DLLs:<ol class="arabic">
+<li>Running <tt class="docutils literal">cygcheck</tt>:<ol class="loweralpha">
+<li><tt class="docutils literal"><span class="pre">_imagingtk.cpython-38-x86_64-cygwin.dll</span></tt>: <a class="reference external" href="Logs/e01 cygcheck .__imagingtk.cpython-38-x86_64-cygwin.dll.txt">[e01]</a></li>
+<li>All <tt class="docutils literal">.dll</tt> files: <a class="reference external" href="Logs/e02 cygcheck .__.dll.txt">[e02]</a></li>
+</ol>
+</li>
+<li>Checking executability: <a class="reference external" href="Logs/e03 ls -l _.dll.txt">[e03]</a></li>
+<li>Running <tt class="docutils literal">ldd</tt>:<ol class="loweralpha">
+<li><tt class="docutils literal"><span class="pre">_imagingtk.cpython-38-x86_64-cygwin.dll</span></tt>: <a class="reference external" href="Logs/e04 ldd _imagingtk.cpython-38-x86_64-cygwin.dll.txt">[e04]</a></li>
+<li>All <tt class="docutils literal">.dll</tt> files: <a class="reference external" href="Logs/e05 ldd _.dll.txt">[e05]</a></li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
 </div>
 </div>
 </div>

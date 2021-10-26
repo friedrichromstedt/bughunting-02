@@ -1,0 +1,12 @@
+Cwd: /usr/lib/python3.8/site-packages/PIL
+Command: cygcheck ./_imagingtk.cpython-38-x86_64-cygwin.dll
+
+C:\Vollzugriff\Programme\cygwin64\lib\python3.8\site-packages\PIL\_imagingtk.cpython-38-x86_64-cygwin.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\libpython3.8.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll

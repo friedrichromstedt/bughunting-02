@@ -1,0 +1,95 @@
+Cwd: /usr/lib/python3.8/site-packages/PIL
+Command: cygcheck ./_imaging.cpython-38-x86_64-cygwin.dll ./_imagingcms.cpython-38-x86_64-cygwin.dll ./_imagingft.cpython-38-x86_64-cygwin.dll ./_imagingmath.cpython-38-x86_64-cygwin.dll ./_imagingmorph.cpython-38-x86_64-cygwin.dll ./_imagingtk.cpython-38-x86_64-cygwin.dll ./_webp.cpython-38-x86_64-cygwin.dll
+
+C:\Vollzugriff\Programme\cygwin64\lib\python3.8\site-packages\PIL\_imaging.cpython-38-x86_64-cygwin.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygimagequant-0.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyggomp-1.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygjpeg-8.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\libpython3.8.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygtiff-6.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygdeflate-0.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygjbig-2.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyglzma-5.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygwebp-7.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygz.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygzstd-1.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-1.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygXau-6.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygXdmcp-6.dll
+
+C:\Vollzugriff\Programme\cygwin64\lib\python3.8\site-packages\PIL\_imagingcms.cpython-38-x86_64-cygwin.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cyglcms2-2.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\libpython3.8.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll
+
+C:\Vollzugriff\Programme\cygwin64\lib\python3.8\site-packages\PIL\_imagingft.cpython-38-x86_64-cygwin.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygfreetype-6.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygbrotlidec-1.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygbrotlicommon-1.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygbz2-1.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygpng16-16.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygz.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\libpython3.8.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll
+
+C:\Vollzugriff\Programme\cygwin64\lib\python3.8\site-packages\PIL\_imagingmath.cpython-38-x86_64-cygwin.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\libpython3.8.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll
+
+C:\Vollzugriff\Programme\cygwin64\lib\python3.8\site-packages\PIL\_imagingmorph.cpython-38-x86_64-cygwin.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\libpython3.8.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll
+
+C:\Vollzugriff\Programme\cygwin64\lib\python3.8\site-packages\PIL\_imagingtk.cpython-38-x86_64-cygwin.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\libpython3.8.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll
+
+C:\Vollzugriff\Programme\cygwin64\lib\python3.8\site-packages\PIL\_webp.cpython-38-x86_64-cygwin.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\libpython3.8.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll
+      C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll
+    C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwebp-7.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwebpdemux-2.dll
+  C:\Vollzugriff\Programme\cygwin64\bin\cygwebpmux-3.dll

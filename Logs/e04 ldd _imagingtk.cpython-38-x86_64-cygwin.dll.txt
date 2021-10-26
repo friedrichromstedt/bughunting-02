@@ -1,0 +1,17 @@
+Cwd: /usr/lib/python3.8/site-packages/PIL
+Command: ldd _imagingtk.cpython-38-x86_64-cygwin.dll
+
+	ntdll.dll => /cygdrive/c/WINDOWS/SYSTEM32/ntdll.dll (0x7ff89e4f0000)
+	KERNEL32.DLL => /cygdrive/c/WINDOWS/System32/KERNEL32.DLL (0x7ff89e240000)
+	KERNELBASE.dll => /cygdrive/c/WINDOWS/System32/KERNELBASE.dll (0x7ff89be40000)
+	libpython3.8.dll => /usr/bin/libpython3.8.dll (0x3f1180000)
+	cygwin1.dll => /usr/bin/cygwin1.dll (0x180040000)
+	cygintl-8.dll => /usr/bin/cygintl-8.dll (0x3f5200000)
+	cyggcc_s-seh-1.dll => /usr/bin/cyggcc_s-seh-1.dll (0x3f6f20000)
+	cygiconv-2.dll => /usr/bin/cygiconv-2.dll (0x3f5250000)
+	advapi32.dll => /cygdrive/c/WINDOWS/System32/advapi32.dll (0x7ff89d9e0000)
+	msvcrt.dll => /cygdrive/c/WINDOWS/System32/msvcrt.dll (0x7ff89dfa0000)
+	sechost.dll => /cygdrive/c/WINDOWS/System32/sechost.dll (0x7ff89db70000)
+	RPCRT4.dll => /cygdrive/c/WINDOWS/System32/RPCRT4.dll (0x7ff89cf70000)
+	CRYPTBASE.DLL => /cygdrive/c/WINDOWS/SYSTEM32/CRYPTBASE.DLL (0x7ff89b5b0000)
+	bcryptPrimitives.dll => /cygdrive/c/WINDOWS/System32/bcryptPrimitives.dll (0x7ff89c4b0000)

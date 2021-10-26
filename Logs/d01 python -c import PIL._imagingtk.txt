@@ -1,0 +1,6 @@
+Cwd: /volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git
+Command: python -c import PIL._imagingtk
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+RuntimeError: No such process

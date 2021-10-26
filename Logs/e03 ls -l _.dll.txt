@@ -1,0 +1,10 @@
+Cwd: /usr/lib/python3.8/site-packages/PIL
+Command: ls -l _imaging.cpython-38-x86_64-cygwin.dll _imagingcms.cpython-38-x86_64-cygwin.dll _imagingft.cpython-38-x86_64-cygwin.dll _imagingmath.cpython-38-x86_64-cygwin.dll _imagingmorph.cpython-38-x86_64-cygwin.dll _imagingtk.cpython-38-x86_64-cygwin.dll _webp.cpython-38-x86_64-cygwin.dll
+
+-rwxr-xr-x 1 Friedrich Kein 360467 Mar 24  2021 _imaging.cpython-38-x86_64-cygwin.dll
+-rwxr-xr-x 1 Friedrich Kein  28691 Mar 24  2021 _imagingcms.cpython-38-x86_64-cygwin.dll
+-rwxr-xr-x 1 Friedrich Kein  30227 Mar 24  2021 _imagingft.cpython-38-x86_64-cygwin.dll
+-rwxr-xr-x 1 Friedrich Kein  16915 Mar 24  2021 _imagingmath.cpython-38-x86_64-cygwin.dll
+-rwxr-xr-x 1 Friedrich Kein  10771 Mar 24  2021 _imagingmorph.cpython-38-x86_64-cygwin.dll
+-rwxr-xr-x 1 Friedrich Kein  12307 Mar 24  2021 _imagingtk.cpython-38-x86_64-cygwin.dll
+-rwxr-xr-x 1 Friedrich Kein  19987 Mar 24  2021 _webp.cpython-38-x86_64-cygwin.dll

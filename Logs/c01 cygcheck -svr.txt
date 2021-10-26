@@ -1,0 +1,1513 @@
+Cwd: /volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git
+Command: cygcheck -svr
+
+
+Cygwin Configuration Diagnostics
+Current System Time: Tue Oct 26 07:36:25 2021
+
+Windows 10 Professional Ver 10.0 Build 19043 
+
+Path:	C:\Vollzugriff\Programme\cygwin64\home\Friedrich\.local\bin
+	C:\Vollzugriff\Programme\cygwin64\usr\local\bin
+	C:\Vollzugriff\Programme\cygwin64\bin
+	C:\Windows\system32
+	C:\Windows
+	C:\Windows\System32\Wbem
+	C:\Windows\System32\WindowsPowerShell\v1.0
+	C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+	C:\WINDOWS\system32
+	C:\WINDOWS
+	C:\WINDOWS\System32\Wbem
+	C:\WINDOWS\System32\WindowsPowerShell\v1.0
+	C:\WINDOWS\System32\OpenSSH
+	C:\Program Files\Intel\WiFi\bin
+	C:\Program Files\Common Files\Intel\WirelessCommon
+	C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+	C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL
+	C:\Program Files\Intel\Intel(R) Management Engine Components\DAL
+	C:\WINDOWS\system32
+	C:\WINDOWS
+	C:\WINDOWS\System32\Wbem
+	C:\WINDOWS\System32\WindowsPowerShell\v1.0
+	C:\WINDOWS\System32\OpenSSH
+	C:\Program Files\Git\cmd
+	C:\Users\Friedrich\AppData\Local\Microsoft\WindowsApps
+	C:\Program Files\Intel\WiFi\bin
+	C:\Program Files\Common Files\Intel\WirelessCommon
+	C:\Vollzugriff\Bibliotheken\OpenCV\opencv-2.4.13.6\build\x86\vc14\bin
+	C:\Vollzugriff\Bibliotheken\OpenCV\opencv-2.4.13.6\build\x64\vc14\bin
+	C:\Vollzugriff\Programme\cygwin64\lib\lapack
+
+Output from C:\Vollzugriff\Programme\cygwin64\bin\id.exe
+UID: 197609(Friedrich)                 GID: 197121(Kein)
+197121(Kein)                           545(Benutzer)
+559(Leistungsprotokollbenutzer)        4(INTERAKTIV)
+66049(KONSOLENANMELDUNG)               11(Authentifizierte Benutzer)
+15(Diese Organisation)                 113(Lokales Konto)
+4095(CurrentSession)                   66048(LOKAL)
+262154(NTLM-Authentifizierung)         401408(Mittlere Verbindlichkeitsstufe)
+
+SysDir: C:\WINDOWS\system32
+WinDir: C:\WINDOWS
+
+USER = 'Friedrich'
+PWD = '/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git'
+HOME = '/home/Friedrich'
+
+USERDOMAIN = 'T470P'
+OS = 'Windows_NT'
+COMMONPROGRAMFILES = 'C:\Program Files\Common Files'
+PROCESSOR_LEVEL = '6'
+PSModulePath = 'C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules'
+CommonProgramW6432 = 'C:\Program Files\Common Files'
+OPENCV_DIR = 'C:\Vollzugriff\Bibliotheken\OpenCV\opencv-2.4.13.6\build'
+CommonProgramFiles(x86) = 'C:\Program Files (x86)\Common Files'
+TZ = 'Europe/Berlin'
+DISPLAY = ':0.0'
+OPENCV2413_DIR = 'C:\Vollzugriff\Bibliotheken\OpenCV\opencv-2.4.13.6'
+HOSTNAME = 'T470p'
+PUBLIC = 'C:\Users\Public'
+OLDPWD = '/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/Logs'
+USERNAME = 'Friedrich'
+LOGONSERVER = '\\T470P'
+PROCESSOR_ARCHITECTURE = 'AMD64'
+LOCALAPPDATA = 'C:\Users\Friedrich\AppData\Local'
+COMPUTERNAME = 'T470P'
+FPS_BROWSER_APP_PROFILE_STRING = 'Internet Explorer'
+!:: = '::\'
+SYSTEMDRIVE = 'C:'
+USERPROFILE = 'C:\Users\Friedrich'
+PATHEXT = '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+SYSTEMROOT = 'C:\WINDOWS'
+USERDOMAIN_ROAMINGPROFILE = 'T470P'
+PROCESSOR_IDENTIFIER = 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+OPENCV3410_DIR = 'C:\Vollzugriff\Bibliotheken\OpenCV\opencv-3.4.10'
+TMP = '/tmp'
+OPENCV430_DIR = 'C:\Vollzugriff\Bibliotheken\OpenCV\opencv-4.3.0'
+LC_CTYPE = 'de_DE.UTF-8'
+TERM_PROGRAM = 'mintty'
+TERM_PROGRAM_VERSION = '3.5.1'
+OneDrive = 'C:\Users\Friedrich\OneDrive'
+PROCESSOR_REVISION = '9e09'
+PYTHON383_DIR = 'C:\Vollzugriff\Programme\Python\Python3.8.3-x64-vs19'
+FPS_BROWSER_USER_PROFILE_STRING = 'Default'
+PROFILEREAD = 'true'
+PYTHON_DIR = '(unset)'
+PYTHON382_DIR = 'C:\Vollzugriff\Programme\Python\Python38-x64'
+NUMBER_OF_PROCESSORS = '8'
+ProgramW6432 = 'C:\Program Files'
+COMSPEC = 'C:\WINDOWS\system32\cmd.exe'
+APPDATA = 'C:\Users\Friedrich\AppData\Roaming'
+TERM = 'xterm'
+SHELL = '/bin/bash'
+configsetroot = 'C:\WINDOWS\ConfigSetRoot'
+WINDIR = 'C:\WINDOWS'
+ProgramData = 'C:\ProgramData'
+SHLVL = '2'
+MINTTY_SHORTCUT = '/cygdrive/c/ProgramData/Microsoft/Windows/Start Menu/Programs/Cygwin/Cygwin64 Terminal.lnk'
+PRINTER = 'bizhub'
+PROGRAMFILES = 'C:\Program Files'
+ALLUSERSPROFILE = 'C:\ProgramData'
+PYTHON27_DIR = 'C:\Python27'
+TEMP = '/tmp'
+DriverData = 'C:\Windows\System32\Drivers\DriverData'
+SESSIONNAME = 'Console'
+ProgramFiles(x86) = 'C:\Program Files (x86)'
+HOMEDRIVE = 'C:'
+INFOPATH = '/usr/local/info:/usr/share/info:/usr/info'
+HOMEPATH = '\Users\Friedrich'
+ORIGINAL_PATH = '/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Users/Friedrich/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Vollzugriff/Bibliotheken/OpenCV/opencv-2.4.13.6/build/x86/vc14/bin:/cygdrive/c/Vollzugriff/Bibliotheken/OpenCV/opencv-2.4.13.6/build/x64/vc14/bin'
+EXECIGNORE = '*.dll'
+LT = '/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/Logs'
+VS140COMNTOOLS = 'C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\'
+_ = '/usr/bin/cygcheck'
+
+HKEY_CURRENT_USER\SOFTWARE\Cygwin
+HKEY_CURRENT_USER\SOFTWARE\Cygwin\Installations
+  (default) = '\??\C:\Vollzugriff\Programme\cygwin64'
+  df22ac599577fd0c = '\??\C:\Vollzugriff\Programme\cygwin32'
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygwin
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygwin\Installations
+  (default) = '\??\C:\Vollzugriff\Programme\cygwin64'
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygwin\setup
+  (default) = 'C:\Vollzugriff\Programme\cygwin64'
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Cygwin
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Cygwin\Installations
+  (default) = '\??\C:\Vollzugriff\Programme\cygwin32'
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Cygwin\setup
+  (default) = 'C:\Vollzugriff\Programme\cygwin32'
+
+obcaseinsensitive set to 1
+
+Cygwin installations found in the registry:
+  System: Key: b416f9a923e081cb Path: C:\Vollzugriff\Programme\cygwin64
+  User:   Key: b416f9a923e081cb Path: C:\Vollzugriff\Programme\cygwin64
+  User:   Key: df22ac599577fd0c Path: C:\Vollzugriff\Programme\cygwin32
+
+c:  hd  NTFS    143050Mb  87% CP CS UN PA FC    QU  Windows
+d:  hd  exFAT    23837Mb  31% CP    UN              Austausch
+n:  hd  NTFS    114440Mb  22% CP CS UN PA FC    QU  Erweiterung
+
+C:\Vollzugriff\Programme\cygwin64      /                            system  binary,auto
+C:\Vollzugriff\Dokumente               /home/Friedrich/Dokumente    system  binary
+C:\Vollzugriff\Entwicklung             /home/Friedrich/Entwicklung  system  binary
+C:\Vollzugriff\Tmp                     /home/Friedrich/Tmp          system  binary
+C:\Vollzugriff\Programme\cygwin64\bin  /usr/bin                     system  binary,auto
+C:\Vollzugriff\Programme\cygwin64\lib  /usr/lib                     system  binary,auto
+D:                                     /volumes/austausch           system  binary
+N:\Vollzugriff                         /volumes/erweiterung         system  binary
+cygdrive prefix                        /cygdrive                    user    binary,posix=0,auto
+
+Found: C:\Vollzugriff\Programme\cygwin64\bin\awk
+ -> C:\Vollzugriff\Programme\cygwin64\bin\gawk.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\bash.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\cat.exe
+Found: C:\Windows\system32\certutil.exe
+Found: C:\WINDOWS\system32\certutil.exe
+Found: C:\WINDOWS\system32\certutil.exe
+Not Found: clinfo
+Found: C:\Windows\system32\comp.exe
+Found: C:\WINDOWS\system32\comp.exe
+Found: C:\WINDOWS\system32\comp.exe
+Found: C:\Windows\system32\convert.exe
+Found: C:\WINDOWS\system32\convert.exe
+Found: C:\WINDOWS\system32\convert.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\cp.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\cpp.exe
+Not Found: crontab
+Found: C:\Windows\system32\curl.exe
+Found: C:\WINDOWS\system32\curl.exe
+Found: C:\WINDOWS\system32\curl.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\expand.exe
+Found: C:\Windows\system32\expand.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\expand.exe hides C:\Windows\system32\expand.exe
+Found: C:\WINDOWS\system32\expand.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\expand.exe hides C:\WINDOWS\system32\expand.exe
+Found: C:\WINDOWS\system32\expand.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\expand.exe hides C:\WINDOWS\system32\expand.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\find.exe
+Found: C:\Windows\system32\find.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\find.exe hides C:\Windows\system32\find.exe
+Found: C:\WINDOWS\system32\find.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\find.exe hides C:\WINDOWS\system32\find.exe
+Found: C:\WINDOWS\system32\find.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\find.exe hides C:\WINDOWS\system32\find.exe
+Found: C:\Windows\system32\ftp.exe
+Found: C:\WINDOWS\system32\ftp.exe
+Found: C:\WINDOWS\system32\ftp.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\gcc.exe
+Not Found: gdb
+Found: C:\Vollzugriff\Programme\cygwin64\bin\grep.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\hostname.exe
+Found: C:\Windows\system32\hostname.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\hostname.exe hides C:\Windows\system32\hostname.exe
+Found: C:\WINDOWS\system32\hostname.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\hostname.exe hides C:\WINDOWS\system32\hostname.exe
+Found: C:\WINDOWS\system32\hostname.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\hostname.exe hides C:\WINDOWS\system32\hostname.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\kill.exe
+Found: C:\Windows\system32\klist.exe
+Found: C:\WINDOWS\system32\klist.exe
+Found: C:\WINDOWS\system32\klist.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\ld.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\ls.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\make.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\mv.exe
+Found: C:\Windows\system32\nslookup.exe
+Found: C:\WINDOWS\system32\nslookup.exe
+Found: C:\WINDOWS\system32\nslookup.exe
+Not Found: patch
+Found: C:\Vollzugriff\Programme\cygwin64\bin\perl.exe
+Found: C:\Windows\system32\replace.exe
+Found: C:\WINDOWS\system32\replace.exe
+Found: C:\WINDOWS\system32\replace.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\rm.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\sed.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\sh.exe
+Found: C:\Windows\system32\shutdown.exe
+Found: C:\WINDOWS\system32\shutdown.exe
+Found: C:\WINDOWS\system32\shutdown.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\sort.exe
+Found: C:\Windows\system32\sort.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\sort.exe hides C:\Windows\system32\sort.exe
+Found: C:\WINDOWS\system32\sort.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\sort.exe hides C:\WINDOWS\system32\sort.exe
+Found: C:\WINDOWS\system32\sort.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\sort.exe hides C:\WINDOWS\system32\sort.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\ssh.exe
+Found: C:\WINDOWS\System32\OpenSSH\ssh.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\ssh.exe hides C:\WINDOWS\System32\OpenSSH\ssh.exe
+Found: C:\WINDOWS\System32\OpenSSH\ssh.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\ssh.exe hides C:\WINDOWS\System32\OpenSSH\ssh.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\tar.exe
+Found: C:\Windows\system32\tar.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\tar.exe hides C:\Windows\system32\tar.exe
+Found: C:\WINDOWS\system32\tar.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\tar.exe hides C:\WINDOWS\system32\tar.exe
+Found: C:\WINDOWS\system32\tar.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\tar.exe hides C:\WINDOWS\system32\tar.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\test.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\timeout.exe
+Found: C:\Windows\system32\timeout.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\timeout.exe hides C:\Windows\system32\timeout.exe
+Found: C:\WINDOWS\system32\timeout.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\timeout.exe hides C:\WINDOWS\system32\timeout.exe
+Found: C:\WINDOWS\system32\timeout.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\timeout.exe hides C:\WINDOWS\system32\timeout.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\vi.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\vim.exe
+Found: C:\Vollzugriff\Programme\cygwin64\bin\whoami.exe
+Found: C:\Windows\system32\whoami.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\whoami.exe hides C:\Windows\system32\whoami.exe
+Found: C:\WINDOWS\system32\whoami.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\whoami.exe hides C:\WINDOWS\system32\whoami.exe
+Found: C:\WINDOWS\system32\whoami.exe
+Warning: C:\Vollzugriff\Programme\cygwin64\bin\whoami.exe hides C:\WINDOWS\system32\whoami.exe
+
+   39k 2016/09/19 C:\Vollzugriff\Programme\cygwin64\bin\cygargp-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygargp-0.dll" v0.0 ts=2016-09-19 02:13
+  616k 2019/12/26 C:\Vollzugriff\Programme\cygwin64\bin\cygaspell-15.dll - os=4.0 img=0.0 sys=5.2
+                  "cygaspell-15.dll" v0.0 ts=2019-12-26 10:12
+  118k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cygatk-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygatk-1.0-0.dll" v0.0 ts=2018-02-11 23:28
+  165k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cygatk-bridge-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygatk-bridge-2.0-0.dll" v0.0 ts=2018-02-11 23:40
+   29k 2021/08/22 C:\Vollzugriff\Programme\cygwin64\bin\cygatomic-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygatomic-1.dll" v0.0 ts=2021-08-22 09:57
+  152k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cygatspi-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygatspi-0.dll" v0.0 ts=2018-02-11 23:33
+   19k 2018/12/20 C:\Vollzugriff\Programme\cygwin64\bin\cygattr-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygattr-1.dll" v0.0 ts=2018-12-20 09:48
+21318k 2021/10/02 C:\Vollzugriff\Programme\cygwin64\bin\cygblas-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygblas-0.dll" v0.0 ts=2021-10-03 00:46
+  254k 2020/03/31 C:\Vollzugriff\Programme\cygwin64\bin\cygblkid-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygblkid-1.dll" v0.0 ts=2020-03-28 06:22
+  132k 2021/04/20 C:\Vollzugriff\Programme\cygwin64\bin\cygbrotlicommon-1.dll - os=4.0 img=1.0 sys=5.2
+                  "cygbrotlicommon-1.dll" v0.0 ts=2021-04-20 11:42
+   46k 2021/04/20 C:\Vollzugriff\Programme\cygwin64\bin\cygbrotlidec-1.dll - os=4.0 img=1.0 sys=5.2
+                  "cygbrotlidec-1.dll" v0.0 ts=2021-04-20 11:42
+  581k 2021/04/20 C:\Vollzugriff\Programme\cygwin64\bin\cygbrotlienc-1.dll - os=4.0 img=1.0 sys=5.2
+                  "cygbrotlienc-1.dll" v0.0 ts=2021-04-20 11:42
+   66k 2019/07/21 C:\Vollzugriff\Programme\cygwin64\bin\cygbz2-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygbz2-1.dll" v0.0 ts=2019-07-22 00:05
+  699k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygc++-1.dll - os=4.0 img=1.0 sys=5.2
+                  "cygc++-1.dll" v0.0 ts=2019-08-27 05:06
+  162k 2019/08/26 C:\Vollzugriff\Programme\cygwin64\bin\cygc++abi-1.dll - os=4.0 img=1.0 sys=5.2
+                  "cygc++abi-1.dll" v0.0 ts=2019-08-26 22:20
+ 1114k 2020/12/24 C:\Vollzugriff\Programme\cygwin64\bin\cygcairo-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcairo-2.dll" v0.0 ts=2020-12-24 22:17
+   27k 2020/12/24 C:\Vollzugriff\Programme\cygwin64\bin\cygcairo-gobject-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcairo-gobject-2.dll" v0.0 ts=2020-12-24 22:17
+  127k 2020/12/24 C:\Vollzugriff\Programme\cygwin64\bin\cygcairo-script-interpreter-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcairo-script-interpreter-2.dll" v0.0 ts=2020-12-24 22:18
+   42k 2020/02/17 C:\Vollzugriff\Programme\cygwin64\bin\cygcbor-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcbor-0.dll" v0.0 ts=2020-02-17 12:04
+  501k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclang-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclang-8.dll" v0.0 ts=2019-08-27 06:13
+  992k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangAnalysis-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangAnalysis-8.dll" v0.0 ts=2019-08-26 18:26
+ 2667k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangARCMigrate-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangARCMigrate-8.dll" v0.0 ts=2019-08-27 06:12
+ 3733k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangAST-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangAST-8.dll" v0.0 ts=2019-08-26 18:19
+  519k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangASTMatchers-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangASTMatchers-8.dll" v0.0 ts=2019-08-26 18:21
+ 2314k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangBasic-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangBasic-8.dll" v0.0 ts=2019-08-26 18:16
+ 4469k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangCodeGen-8.dll" v0.0 ts=2019-08-27 06:08
+   36k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangCrossTU-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangCrossTU-8.dll" v0.0 ts=2019-08-27 06:09
+ 1705k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangDriver-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangDriver-8.dll" v0.0 ts=2019-08-27 06:08
+ 1847k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangDynamicASTMatchers-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangDynamicASTMatchers-8.dll" v0.0 ts=2019-08-26 18:22
+   56k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangEdit-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangEdit-8.dll" v0.0 ts=2019-08-26 18:26
+  527k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangFormat-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangFormat-8.dll" v0.0 ts=2019-08-26 18:37
+ 1278k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangFrontend-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangFrontend-8.dll" v0.0 ts=2019-08-27 06:08
+   23k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangFrontendTool-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangFrontendTool-8.dll" v0.0 ts=2019-08-27 06:13
+   25k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangHandleCXX-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangHandleCXX-8.dll" v0.0 ts=2019-08-27 06:11
+  158k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangHandleLLVM-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangHandleLLVM-8.dll" v0.0 ts=2019-08-26 18:37
+  312k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangIndex-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangIndex-8.dll" v0.0 ts=2019-08-27 06:08
+  752k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangLex-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangLex-8.dll" v0.0 ts=2019-08-26 18:16
+  936k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangParse-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangParse-8.dll" v0.0 ts=2019-08-26 18:29
+   62k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangRewrite-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangRewrite-8.dll" v0.0 ts=2019-08-26 18:26
+  444k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangRewriteFrontend-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangRewriteFrontend-8.dll" v0.0 ts=2019-08-27 06:08
+ 7417k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangSema-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangSema-8.dll" v0.0 ts=2019-08-26 18:27
+ 1454k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangSerialization-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangSerialization-8.dll" v0.0 ts=2019-08-26 18:30
+ 3665k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangStaticAnalyzerCheckers-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangStaticAnalyzerCheckers-8.dll" v0.0 ts=2019-08-27 06:10
+ 1990k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangStaticAnalyzerCore-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangStaticAnalyzerCore-8.dll" v0.0 ts=2019-08-27 06:09
+  298k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangStaticAnalyzerFrontend-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangStaticAnalyzerFrontend-8.dll" v0.0 ts=2019-08-27 06:12
+  482k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangTooling-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangTooling-8.dll" v0.0 ts=2019-08-27 06:08
+  149k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangToolingASTDiff-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangToolingASTDiff-8.dll" v0.0 ts=2019-08-26 18:31
+   58k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangToolingCore-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangToolingCore-8.dll" v0.0 ts=2019-08-26 18:30
+   40k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangToolingInclusions-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangToolingInclusions-8.dll" v0.0 ts=2019-08-26 18:30
+  797k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygclangToolingRefactor-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygclangToolingRefactor-8.dll" v0.0 ts=2019-08-27 06:09
+   13k 2019/01/02 C:\Vollzugriff\Programme\cygwin64\bin\cygcom_err-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcom_err-2.dll" v0.0 ts=2019-01-02 02:39
+  203k 2017/04/25 C:\Vollzugriff\Programme\cygwin64\bin\cygcroco-0.6-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcroco-0.6-3.dll" v0.0 ts=2017-04-25 17:03
+  193k 2021/05/20 C:\Vollzugriff\Programme\cygwin64\bin\cygcrypt-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcrypt-2.dll" v0.0 ts=2021-05-20 09:38
+ 2363k 2019/09/11 C:\Vollzugriff\Programme\cygwin64\bin\cygcrypto-1.0.0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcrypto-1.0.0.dll" v0.0 ts=2019-09-11 18:40
+ 2451k 2020/04/08 C:\Vollzugriff\Programme\cygwin64\bin\cygcrypto-1.1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcrypto-1.1.dll" v0.0 ts=2020-04-08 12:11
+  661k 2021/09/26 C:\Vollzugriff\Programme\cygwin64\bin\cygcurl-4.dll - os=4.0 img=0.0 sys=5.2
+                  "cygcurl-4.dll" v0.0 ts=2021-09-26 01:11
+   24k 2014/11/12 C:\Vollzugriff\Programme\cygwin64\bin\cygdatrie-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygdatrie-1.dll" v0.0 ts=2014-11-12 07:24
+ 1552k 2017/09/28 C:\Vollzugriff\Programme\cygwin64\bin\cygdb-5.3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygdb-5.3.dll" v0.0 ts=2017-09-28 20:05
+  267k 2017/08/10 C:\Vollzugriff\Programme\cygwin64\bin\cygdbus-1-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygdbus-1-3.dll" v0.0 ts=2017-08-10 06:10
+  119k 2017/09/28 C:\Vollzugriff\Programme\cygwin64\bin\cygdb_cxx-5.3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygdb_cxx-5.3.dll" v0.0 ts=2017-09-28 20:06
+  569k 2017/09/28 C:\Vollzugriff\Programme\cygwin64\bin\cygdb_sql-5.3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygdb_sql-5.3.dll" v0.0 ts=2017-09-28 20:06
+   52k 2021/07/24 C:\Vollzugriff\Programme\cygwin64\bin\cygdeflate-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygdeflate-0.dll" v0.0 ts=2021-07-24 23:48
+  154k 2013/10/20 C:\Vollzugriff\Programme\cygwin64\bin\cygedit-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygedit-0.dll" v0.0 ts=2013-10-20 21:56
+   37k 2017/07/24 C:\Vollzugriff\Programme\cygwin64\bin\cygenchant-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygenchant-1.dll" v0.0 ts=2017-07-24 07:44
+  679k 2017/09/04 C:\Vollzugriff\Programme\cygwin64\bin\cygepoxy-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygepoxy-0.dll" v0.0 ts=2017-09-04 22:23
+  169k 2021/07/23 C:\Vollzugriff\Programme\cygwin64\bin\cygexpat-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygexpat-1.dll" v0.0 ts=2021-07-23 20:08
+   30k 2014/10/14 C:\Vollzugriff\Programme\cygwin64\bin\cygfam-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygfam-0.dll" v0.0 ts=2014-10-14 21:33
+  353k 2020/03/31 C:\Vollzugriff\Programme\cygwin64\bin\cygfdisk-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygfdisk-1.dll" v0.0 ts=2020-03-28 06:23
+   27k 2015/11/17 C:\Vollzugriff\Programme\cygwin64\bin\cygffi-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygffi-6.dll" v0.0 ts=2015-11-17 22:14
+  136k 2020/10/20 C:\Vollzugriff\Programme\cygwin64\bin\cygfido2-1.dll - os=4.0 img=1.5 sys=5.2
+                  "cygfido2-1.dll" v0.0 ts=2020-10-20 19:25
+  251k 2020/09/13 C:\Vollzugriff\Programme\cygwin64\bin\cygfontconfig-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygfontconfig-1.dll" v0.0 ts=2020-09-13 16:50
+   27k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygfontenc-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygfontenc-1.dll" v0.0 ts=2019-09-05 22:05
+   56k 2019/07/28 C:\Vollzugriff\Programme\cygwin64\bin\cygformw-10.dll - os=4.0 img=0.0 sys=5.2
+                  "cygformw-10.dll" v0.0 ts=2019-07-28 17:33
+  719k 2021/10/19 C:\Vollzugriff\Programme\cygwin64\bin\cygfreetype-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygfreetype-6.dll" v0.0 ts=2021-10-19 13:39
+   93k 2016/06/02 C:\Vollzugriff\Programme\cygwin64\bin\cygfribidi-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygfribidi-0.dll" v0.0 ts=2016-06-02 17:17
+  146k 2021/10/13 C:\Vollzugriff\Programme\cygwin64\bin\cyggc-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggc-1.dll" v0.0 ts=2021-10-13 06:55
+   74k 2021/08/22 C:\Vollzugriff\Programme\cygwin64\bin\cyggcc_s-seh-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggcc_s-seh-1.dll" v0.0 ts=2021-08-22 09:49
+  174k 2017/03/05 C:\Vollzugriff\Programme\cygwin64\bin\cyggck-1-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggck-1-0.dll" v0.0 ts=2017-03-05 21:04
+  477k 2017/03/05 C:\Vollzugriff\Programme\cygwin64\bin\cyggcr-base-3-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggcr-base-3-1.dll" v0.0 ts=2017-03-05 21:04
+  367k 2017/03/05 C:\Vollzugriff\Programme\cygwin64\bin\cyggcr-ui-3-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggcr-ui-3-1.dll" v0.0 ts=2017-03-05 21:05
+ 1099k 2018/03/19 C:\Vollzugriff\Programme\cygwin64\bin\cyggcrypt-20.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggcrypt-20.dll" v0.0 ts=2018-03-19 20:09
+   49k 2019/07/10 C:\Vollzugriff\Programme\cygwin64\bin\cyggdbm-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggdbm-6.dll" v0.0 ts=2019-07-10 14:53
+   13k 2019/07/10 C:\Vollzugriff\Programme\cygwin64\bin\cyggdbm_compat-4.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggdbm_compat-4.dll" v0.0 ts=2019-07-10 14:53
+  699k 2018/02/19 C:\Vollzugriff\Programme\cygwin64\bin\cyggdk-3-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggdk-3-0.dll" v0.0 ts=2018-02-19 06:40
+  620k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cyggdk-x11-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggdk-x11-2.0-0.dll" v0.0 ts=2018-02-12 01:51
+  141k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cyggdk_pixbuf-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggdk_pixbuf-2.0-0.dll" v0.0 ts=2018-02-11 23:46
+  710k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cyggee-0.8-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggee-0.8-2.dll" v0.0 ts=2018-02-12 00:52
+ 1744k 2018/12/09 C:\Vollzugriff\Programme\cygwin64\bin\cyggfortran-4.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggfortran-4.dll" v0.0 ts=2018-12-09 00:10
+ 2805k 2021/08/22 C:\Vollzugriff\Programme\cygwin64\bin\cyggfortran-5.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggfortran-5.dll" v0.0 ts=2021-08-22 10:17
+ 1398k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cyggio-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggio-2.0-0.dll" v0.0 ts=2018-02-11 19:03
+  200k 2021/05/20 C:\Vollzugriff\Programme\cygwin64\bin\cyggirepository-1.0-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggirepository-1.0-1.dll" v0.0 ts=2021-05-20 18:57
+  823k 2017/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cyggit2-25.dll - os=4.0 img=0.25 sys=5.2
+                  "cyggit2-25.dll" v0.0 ts=2017-09-05 02:02
+  270k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cyggit2-glib-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggit2-glib-1.0-0.dll" v0.0 ts=2018-02-12 03:16
+  530k 2018/02/14 C:\Vollzugriff\Programme\cygwin64\bin\cyggitg-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggitg-1.0-0.dll" v0.0 ts=2018-02-14 07:02
+   69k 2018/02/14 C:\Vollzugriff\Programme\cygwin64\bin\cyggitg-ext-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggitg-ext-1.0-0.dll" v0.0 ts=2018-02-14 07:02
+  472k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygGL-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygGL-1.dll" v0.0 ts=2019-09-05 16:21
+  300k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygglapi-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygglapi-0.dll" v0.0 ts=2019-09-05 16:18
+  993k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cygglib-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygglib-2.0-0.dll" v0.0 ts=2018-02-11 19:01
+   15k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cyggmodule-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggmodule-2.0-0.dll" v0.0 ts=2018-02-11 19:01
+  582k 2021/08/21 C:\Vollzugriff\Programme\cygwin64\bin\cyggmp-10.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggmp-10.dll" v0.0 ts=2021-08-21 19:11
+   93k 2015/06/19 C:\Vollzugriff\Programme\cygwin64\bin\cyggnome-menu-3-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggnome-menu-3-0.dll" v0.0 ts=2015-06-20 00:07
+ 1472k 2019/07/29 C:\Vollzugriff\Programme\cygwin64\bin\cyggnutls-30.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggnutls-30.dll" v0.0 ts=2019-07-29 03:55
+  289k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cyggobject-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggobject-2.0-0.dll" v0.0 ts=2018-02-11 19:02
+  217k 2021/08/22 C:\Vollzugriff\Programme\cygwin64\bin\cyggomp-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggomp-1.dll" v0.0 ts=2021-08-22 09:53
+  116k 2020/02/16 C:\Vollzugriff\Programme\cygwin64\bin\cyggpg-error-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggpg-error-0.dll" v0.0 ts=2020-02-16 21:28
+  140k 2020/05/11 C:\Vollzugriff\Programme\cygwin64\bin\cyggraphite2-3.dll - os=4.0 img=3.2 sys=5.2
+                  "cyggraphite2-3.dll" v0.0 ts=2020-05-11 19:52
+  100k 2017/05/03 C:\Vollzugriff\Programme\cygwin64\bin\cyggsasl-7.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggsasl-7.dll" v0.0 ts=2017-05-03 09:33
+  274k 2018/03/16 C:\Vollzugriff\Programme\cygwin64\bin\cyggssapi_krb5-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggssapi_krb5-2.dll" v0.0 ts=2018-03-16 03:38
+    9k 2018/02/11 C:\Vollzugriff\Programme\cygwin64\bin\cyggthread-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggthread-2.0-0.dll" v0.0 ts=2018-02-11 19:01
+ 6754k 2018/02/19 C:\Vollzugriff\Programme\cygwin64\bin\cyggtk-3-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggtk-3-0.dll" v0.0 ts=2018-02-19 07:00
+ 4007k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cyggtk-x11-2.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggtk-x11-2.0-0.dll" v0.0 ts=2018-02-12 01:59
+  587k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cyggtksourceview-3.0-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggtksourceview-3.0-1.dll" v0.0 ts=2018-02-12 03:05
+   32k 2017/03/07 C:\Vollzugriff\Programme\cygwin64\bin\cyggtkspell3-3-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyggtkspell3-3-0.dll" v0.0 ts=2017-03-07 05:45
+ 1070k 2020/03/13 C:\Vollzugriff\Programme\cygwin64\bin\cygguile-2.2-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygguile-2.2-1.dll" v0.0 ts=2020-03-08 21:47
+  938k 2021/10/19 C:\Vollzugriff\Programme\cygwin64\bin\cygharfbuzz-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygharfbuzz-0.dll" v0.0 ts=2021-10-19 15:30
+   76k 2021/10/19 C:\Vollzugriff\Programme\cygwin64\bin\cygharfbuzz-gobject-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygharfbuzz-gobject-0.dll" v0.0 ts=2021-10-19 15:30
+   36k 2021/08/31 C:\Vollzugriff\Programme\cygwin64\bin\cyghistory7.dll - os=4.0 img=0.0 sys=5.2
+                  "cyghistory7.dll" v0.0 ts=2021-08-31 07:54
+  168k 2019/02/19 C:\Vollzugriff\Programme\cygwin64\bin\cyghogweed-4.dll - os=4.0 img=0.0 sys=5.2
+                  "cyghogweed-4.dll" v0.0 ts=2019-02-19 06:59
+  443k 2017/07/24 C:\Vollzugriff\Programme\cygwin64\bin\cyghunspell-1.6-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyghunspell-1.6-0.dll" v0.0 ts=2017-07-24 07:01
+   81k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygICE-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygICE-6.dll" v0.0 ts=2019-09-05 21:24
+ 1007k 2020/07/13 C:\Vollzugriff\Programme\cygwin64\bin\cygiconv-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygiconv-2.dll" v0.0 ts=2020-07-13 13:57
+  197k 2017/05/02 C:\Vollzugriff\Programme\cygwin64\bin\cygidn-11.dll - os=4.0 img=0.0 sys=5.2
+                  "cygidn-11.dll" v0.0 ts=2017-05-02 01:18
+  125k 2021/07/25 C:\Vollzugriff\Programme\cygwin64\bin\cygidn2-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygidn2-0.dll" v0.0 ts=2021-07-25 08:25
+   54k 2017/07/06 C:\Vollzugriff\Programme\cygwin64\bin\cygimagequant-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygimagequant-0.dll" v0.0 ts=2017-07-06 18:49
+   42k 2021/07/29 C:\Vollzugriff\Programme\cygwin64\bin\cygintl-8.dll - os=4.0 img=0.0 sys=5.2
+                  "cygintl-8.dll" v0.0 ts=2021-07-29 03:40
+ 1560k 2020/03/01 C:\Vollzugriff\Programme\cygwin64\bin\cygisl-22.dll - os=4.0 img=0.0 sys=5.2
+                  "cygisl-22.dll" v0.0 ts=2020-03-01 16:46
+ 1695k 2021/08/21 C:\Vollzugriff\Programme\cygwin64\bin\cygisl-23.dll - os=4.0 img=0.0 sys=5.2
+                  "cygisl-23.dll" v0.0 ts=2021-08-21 18:50
+  288k 2017/09/25 C:\Vollzugriff\Programme\cygwin64\bin\cygjasper-4.dll - os=4.0 img=4.0 sys=5.2
+                  "cygjasper-4.dll" v0.0 ts=2017-09-25 02:39
+   49k 2021/05/26 C:\Vollzugriff\Programme\cygwin64\bin\cygjbig-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygjbig-2.dll" v0.0 ts=2021-05-26 14:23
+   19k 2021/05/26 C:\Vollzugriff\Programme\cygwin64\bin\cygjbig85-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygjbig85-2.dll" v0.0 ts=2021-05-26 14:23
+  656k 2021/09/19 C:\Vollzugriff\Programme\cygwin64\bin\cygjpeg-8.dll - os=4.0 img=8.2 sys=5.2
+                  "cygjpeg-8.dll" v0.0 ts=2021-09-19 07:29
+  130k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygjson-glib-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygjson-glib-1.0-0.dll" v0.0 ts=2018-02-12 01:18
+  192k 2018/03/16 C:\Vollzugriff\Programme\cygwin64\bin\cygk5crypto-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygk5crypto-3.dll" v0.0 ts=2018-03-16 03:37
+  754k 2018/03/16 C:\Vollzugriff\Programme\cygwin64\bin\cygkrb5-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygkrb5-3.dll" v0.0 ts=2018-03-16 03:37
+   37k 2018/03/16 C:\Vollzugriff\Programme\cygwin64\bin\cygkrb5support-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygkrb5support-0.dll" v0.0 ts=2018-03-16 03:36
+   48k 2021/06/12 C:\Vollzugriff\Programme\cygwin64\bin\cyglber-2-4-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cyglber-2-4-2.dll" v0.0 ts=2021-06-12 19:04
+   49k 2021/10/16 C:\Vollzugriff\Programme\cygwin64\bin\cyglber-2-5-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyglber-2-5-0.dll" v0.0 ts=2021-10-16 12:01
+  338k 2021/02/25 C:\Vollzugriff\Programme\cygwin64\bin\cyglcms2-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cyglcms2-2.dll" v0.0 ts=2021-02-25 23:56
+  266k 2021/06/12 C:\Vollzugriff\Programme\cygwin64\bin\cygldap-2-4-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygldap-2-4-2.dll" v0.0 ts=2021-06-12 19:05
+  323k 2021/10/16 C:\Vollzugriff\Programme\cygwin64\bin\cygldap-2-5-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygldap-2-5-0.dll" v0.0 ts=2021-10-16 12:01
+  283k 2021/06/12 C:\Vollzugriff\Programme\cygwin64\bin\cygldap_r-2-4-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygldap_r-2-4-2.dll" v0.0 ts=2021-06-12 19:07
+  906k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAArch64AsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAArch64AsmParser-8.dll" v0.0 ts=2019-08-26 23:56
+  592k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAArch64AsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAArch64AsmPrinter-8.dll" v0.0 ts=2019-08-26 23:56
+ 2311k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAArch64CodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAArch64CodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  846k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAArch64Desc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAArch64Desc-8.dll" v0.0 ts=2019-08-26 23:56
+  191k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAArch64Disassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAArch64Disassembler-8.dll" v0.0 ts=2019-08-26 23:56
+    9k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAArch64Info-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAArch64Info-8.dll" v0.0 ts=2019-08-26 23:55
+  119k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAArch64Utils-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAArch64Utils-8.dll" v0.0 ts=2019-08-26 23:55
+   74k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAggressiveInstCombine-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAggressiveInstCombine-8.dll" v0.0 ts=2019-08-27 00:08
+  757k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAMDGPUAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAMDGPUAsmParser-8.dll" v0.0 ts=2019-08-26 23:57
+  233k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAMDGPUAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAMDGPUAsmPrinter-8.dll" v0.0 ts=2019-08-26 23:57
+ 2704k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAMDGPUCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAMDGPUCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+ 1418k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAMDGPUDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAMDGPUDesc-8.dll" v0.0 ts=2019-08-26 23:57
+  200k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAMDGPUDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAMDGPUDisassembler-8.dll" v0.0 ts=2019-08-26 23:57
+    9k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAMDGPUInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAMDGPUInfo-8.dll" v0.0 ts=2019-08-26 23:57
+  223k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAMDGPUUtils-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAMDGPUUtils-8.dll" v0.0 ts=2019-08-26 23:57
+ 3324k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAnalysis-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAnalysis-8.dll" v0.0 ts=2019-08-27 00:07
+  490k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMARMAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMARMAsmParser-8.dll" v0.0 ts=2019-08-26 23:58
+  111k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMARMAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMARMAsmPrinter-8.dll" v0.0 ts=2019-08-26 23:58
+ 2347k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMARMCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMARMCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  788k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMARMDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMARMDesc-8.dll" v0.0 ts=2019-08-26 23:58
+  221k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMARMDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMARMDisassembler-8.dll" v0.0 ts=2019-08-26 23:58
+   10k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMARMInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMARMInfo-8.dll" v0.0 ts=2019-08-26 23:58
+   18k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMARMUtils-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMARMUtils-8.dll" v0.0 ts=2019-08-26 23:58
+  382k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAsmParser-8.dll" v0.0 ts=2019-08-27 00:07
+  741k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:08
+  118k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBinaryFormat-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBinaryFormat-8.dll" v0.0 ts=2019-08-26 23:39
+  320k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBitReader-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBitReader-8.dll" v0.0 ts=2019-08-26 23:45
+  232k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBitWriter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBitWriter-8.dll" v0.0 ts=2019-08-27 00:08
+   31k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBPFAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBPFAsmParser-8.dll" v0.0 ts=2019-08-26 23:59
+   17k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBPFAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBPFAsmPrinter-8.dll" v0.0 ts=2019-08-26 23:59
+  238k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBPFCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBPFCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+   53k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBPFDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBPFDesc-8.dll" v0.0 ts=2019-08-26 23:59
+   15k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBPFDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBPFDisassembler-8.dll" v0.0 ts=2019-08-26 23:59
+    9k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMBPFInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMBPFInfo-8.dll" v0.0 ts=2019-08-26 23:59
+ 4256k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMCodeGen-8.dll" v0.0 ts=2019-08-27 00:08
+ 2438k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMCore-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMCore-8.dll" v0.0 ts=2019-08-26 23:40
+  136k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMCoroutines-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMCoroutines-8.dll" v0.0 ts=2019-08-27 00:08
+  143k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMCoverage-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMCoverage-8.dll" v0.0 ts=2019-08-27 00:07
+  600k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMDebugInfoCodeView-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMDebugInfoCodeView-8.dll" v0.0 ts=2019-08-26 23:52
+  498k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMDebugInfoDWARF-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMDebugInfoDWARF-8.dll" v0.0 ts=2019-08-26 23:52
+   61k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMDebugInfoMSF-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMDebugInfoMSF-8.dll" v0.0 ts=2019-08-26 23:52
+  574k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMDebugInfoPDB-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMDebugInfoPDB-8.dll" v0.0 ts=2019-08-26 23:53
+  219k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMDemangle-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMDemangle-8.dll" v0.0 ts=2019-08-26 06:19
+   18k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMDlltoolDriver-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMDlltoolDriver-8.dll" v0.0 ts=2019-08-27 00:07
+  126k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMExecutionEngine-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMExecutionEngine-8.dll" v0.0 ts=2019-08-27 00:08
+  124k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMFuzzMutate-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMFuzzMutate-8.dll" v0.0 ts=2019-08-27 00:08
+  442k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMGlobalISel-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMGlobalISel-8.dll" v0.0 ts=2019-08-27 00:08
+  257k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMHexagonAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMHexagonAsmParser-8.dll" v0.0 ts=2019-08-27 00:00
+ 2482k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMHexagonCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMHexagonCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  749k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMHexagonDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMHexagonDesc-8.dll" v0.0 ts=2019-08-27 00:00
+  130k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMHexagonDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMHexagonDisassembler-8.dll" v0.0 ts=2019-08-27 00:00
+    8k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMHexagonInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMHexagonInfo-8.dll" v0.0 ts=2019-08-27 00:00
+  967k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMInstCombine-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMInstCombine-8.dll" v0.0 ts=2019-08-27 00:08
+  943k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMInstrumentation-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMInstrumentation-8.dll" v0.0 ts=2019-08-27 00:08
+  145k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMInterpreter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMInterpreter-8.dll" v0.0 ts=2019-08-27 00:08
+ 1165k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMipo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMipo-8.dll" v0.0 ts=2019-08-27 00:08
+   23k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMIRReader-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMIRReader-8.dll" v0.0 ts=2019-08-27 00:07
+   45k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLanaiAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLanaiAsmParser-8.dll" v0.0 ts=2019-08-27 00:01
+   24k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLanaiAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLanaiAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:00
+  304k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLanaiCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLanaiCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+   59k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLanaiDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLanaiDesc-8.dll" v0.0 ts=2019-08-27 00:01
+   15k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLanaiDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLanaiDisassembler-8.dll" v0.0 ts=2019-08-27 00:01
+    8k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLanaiInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLanaiInfo-8.dll" v0.0 ts=2019-08-27 00:01
+   25k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLibDriver-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLibDriver-8.dll" v0.0 ts=2019-08-27 00:07
+   17k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLineEditor-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLineEditor-8.dll" v0.0 ts=2019-08-27 00:07
+  115k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLinker-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLinker-8.dll" v0.0 ts=2019-08-27 00:08
+  297k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMLTO-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMLTO-8.dll" v0.0 ts=2019-08-27 00:09
+  681k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMC-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMC-8.dll" v0.0 ts=2019-08-26 23:52
+  108k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMCA-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMCA-8.dll" v0.0 ts=2019-08-26 23:52
+   23k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMCDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMCDisassembler-8.dll" v0.0 ts=2019-08-26 23:52
+   47k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMCJIT-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMCJIT-8.dll" v0.0 ts=2019-08-27 00:08
+  266k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMCParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMCParser-8.dll" v0.0 ts=2019-08-26 23:52
+  294k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMipsAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMipsAsmParser-8.dll" v0.0 ts=2019-08-27 00:02
+   80k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMipsAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMipsAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:02
+ 1478k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMipsCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMipsCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  483k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMipsDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMipsDesc-8.dll" v0.0 ts=2019-08-27 00:02
+  103k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMipsDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMipsDisassembler-8.dll" v0.0 ts=2019-08-27 00:02
+   10k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMipsInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMipsInfo-8.dll" v0.0 ts=2019-08-27 00:02
+  194k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMIRParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMIRParser-8.dll" v0.0 ts=2019-08-27 00:08
+   44k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMSP430AsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMSP430AsmParser-8.dll" v0.0 ts=2019-08-27 00:02
+   20k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMSP430AsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMSP430AsmPrinter-8.dll" v0.0 ts=2019-08-27 00:02
+  220k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMSP430CodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMSP430CodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+   75k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMSP430Desc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMSP430Desc-8.dll" v0.0 ts=2019-08-27 00:02
+   19k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMSP430Disassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMSP430Disassembler-8.dll" v0.0 ts=2019-08-27 00:02
+    8k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMMSP430Info-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMMSP430Info-8.dll" v0.0 ts=2019-08-27 00:02
+  120k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMNVPTXAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMNVPTXAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:02
+  650k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMNVPTXCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMNVPTXCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  458k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMNVPTXDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMNVPTXDesc-8.dll" v0.0 ts=2019-08-27 00:02
+    9k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMNVPTXInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMNVPTXInfo-8.dll" v0.0 ts=2019-08-27 00:02
+  149k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMObjCARCOpts-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMObjCARCOpts-8.dll" v0.0 ts=2019-08-27 00:08
+  713k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMObject-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMObject-8.dll" v0.0 ts=2019-08-26 23:52
+  931k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMObjectYAML-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMObjectYAML-8.dll" v0.0 ts=2019-08-26 23:52
+   54k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMOption-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMOption-8.dll" v0.0 ts=2019-08-26 23:52
+   20k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMOptRemarks-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMOptRemarks-8.dll" v0.0 ts=2019-08-26 23:52
+  662k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMOrcJIT-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMOrcJIT-8.dll" v0.0 ts=2019-08-27 00:08
+ 1166k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMPasses-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMPasses-8.dll" v0.0 ts=2019-08-27 00:08
+  123k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMPowerPCAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMPowerPCAsmParser-8.dll" v0.0 ts=2019-08-27 00:03
+  104k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMPowerPCAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMPowerPCAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:03
+ 1407k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMPowerPCCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMPowerPCCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  397k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMPowerPCDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMPowerPCDesc-8.dll" v0.0 ts=2019-08-27 00:03
+   84k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMPowerPCDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMPowerPCDisassembler-8.dll" v0.0 ts=2019-08-27 00:03
+    9k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMPowerPCInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMPowerPCInfo-8.dll" v0.0 ts=2019-08-27 00:03
+  329k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMProfileData-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMProfileData-8.dll" v0.0 ts=2019-08-27 00:07
+  369k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMRuntimeDyld-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMRuntimeDyld-8.dll" v0.0 ts=2019-08-26 23:53
+ 2835k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMScalarOpts-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMScalarOpts-8.dll" v0.0 ts=2019-08-27 00:08
+ 2860k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSelectionDAG-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSelectionDAG-8.dll" v0.0 ts=2019-08-27 00:08
+   74k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSparcAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSparcAsmParser-8.dll" v0.0 ts=2019-08-27 00:04
+   95k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSparcAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSparcAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:04
+  326k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSparcCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSparcCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  135k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSparcDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSparcDesc-8.dll" v0.0 ts=2019-08-27 00:04
+   28k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSparcDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSparcDisassembler-8.dll" v0.0 ts=2019-08-27 00:04
+    9k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSparcInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSparcInfo-8.dll" v0.0 ts=2019-08-27 00:04
+ 1429k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSupport-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSupport-8.dll" v0.0 ts=2019-08-26 23:38
+   55k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSymbolize-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSymbolize-8.dll" v0.0 ts=2019-08-26 23:53
+  142k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSystemZAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSystemZAsmParser-8.dll" v0.0 ts=2019-08-27 00:04
+   55k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSystemZAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSystemZAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:04
+  718k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSystemZCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSystemZCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  386k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSystemZDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSystemZDesc-8.dll" v0.0 ts=2019-08-27 00:04
+  110k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSystemZDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSystemZDisassembler-8.dll" v0.0 ts=2019-08-27 00:04
+    8k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMSystemZInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMSystemZInfo-8.dll" v0.0 ts=2019-08-27 00:04
+  356k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMTableGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMTableGen-8.dll" v0.0 ts=2019-08-26 23:39
+   47k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMTarget-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMTarget-8.dll" v0.0 ts=2019-08-27 00:08
+   27k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMTextAPI-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMTextAPI-8.dll" v0.0 ts=2019-08-27 00:07
+ 1636k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMTransformUtils-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMTransformUtils-8.dll" v0.0 ts=2019-08-27 00:08
+  735k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMVectorize-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMVectorize-8.dll" v0.0 ts=2019-08-27 00:08
+   59k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMWebAssemblyAsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMWebAssemblyAsmParser-8.dll" v0.0 ts=2019-08-27 00:05
+   41k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMWebAssemblyAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMWebAssemblyAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:05
+  720k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMWebAssemblyCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMWebAssemblyCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+  157k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMWebAssemblyDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMWebAssemblyDesc-8.dll" v0.0 ts=2019-08-27 00:05
+   17k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMWebAssemblyDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMWebAssemblyDisassembler-8.dll" v0.0 ts=2019-08-27 00:05
+    9k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMWebAssemblyInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMWebAssemblyInfo-8.dll" v0.0 ts=2019-08-27 00:05
+   13k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMWindowsManifest-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMWindowsManifest-8.dll" v0.0 ts=2019-08-27 00:07
+  646k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMX86AsmParser-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMX86AsmParser-8.dll" v0.0 ts=2019-08-27 00:07
+  338k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMX86AsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMX86AsmPrinter-8.dll" v0.0 ts=2019-08-27 00:07
+ 3795k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMX86CodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMX86CodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+ 1732k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMX86Desc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMX86Desc-8.dll" v0.0 ts=2019-08-27 00:07
+ 1626k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMX86Disassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMX86Disassembler-8.dll" v0.0 ts=2019-08-27 00:07
+    9k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMX86Info-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMX86Info-8.dll" v0.0 ts=2019-08-27 00:07
+   19k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMX86Utils-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMX86Utils-8.dll" v0.0 ts=2019-08-27 00:07
+   16k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMXCoreAsmPrinter-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMXCoreAsmPrinter-8.dll" v0.0 ts=2019-08-27 00:07
+  347k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMXCoreCodeGen-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMXCoreCodeGen-8.dll" v0.0 ts=2019-08-27 00:09
+   53k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMXCoreDesc-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMXCoreDesc-8.dll" v0.0 ts=2019-08-27 00:07
+   24k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMXCoreDisassembler-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMXCoreDisassembler-8.dll" v0.0 ts=2019-08-27 00:07
+    8k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMXCoreInfo-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMXCoreInfo-8.dll" v0.0 ts=2019-08-27 00:07
+  171k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygLLVMXRay-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygLLVMXRay-8.dll" v0.0 ts=2019-08-27 00:08
+   35k 2019/07/28 C:\Vollzugriff\Programme\cygwin64\bin\cygltdl-7.dll - os=4.0 img=0.0 sys=5.2
+                  "cygltdl-7.dll" v0.0 ts=2019-07-28 17:44
+   73k 2017/06/19 C:\Vollzugriff\Programme\cygwin64\bin\cyglz4-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyglz4-1.dll" v0.0 ts=2017-06-19 15:40
+  144k 2019/07/21 C:\Vollzugriff\Programme\cygwin64\bin\cyglzma-5.dll - os=4.0 img=0.0 sys=5.2
+                  "cyglzma-5.dll" v0.0 ts=2019-07-22 00:15
+  153k 2020/10/29 C:\Vollzugriff\Programme\cygwin64\bin\cygmagic-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygmagic-1.dll" v0.0 ts=2020-10-29 21:32
+  212k 2021/02/16 C:\Vollzugriff\Programme\cygwin64\bin\cygman-2-9-4.dll - os=4.0 img=0.0 sys=5.2
+                  "cygman-2-9-4.dll" v0.0 ts=2021-02-16 17:36
+   24k 2021/02/16 C:\Vollzugriff\Programme\cygwin64\bin\cygmandb-2-9-4.dll - os=4.0 img=0.0 sys=5.2
+                  "cygmandb-2-9-4.dll" v0.0 ts=2021-02-16 17:36
+  132k 2014/01/21 C:\Vollzugriff\Programme\cygwin64\bin\cygmcpp-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygmcpp-0.dll" v0.0 ts=2014-01-21 18:41
+   28k 2019/07/28 C:\Vollzugriff\Programme\cygwin64\bin\cygmenuw-10.dll - os=4.0 img=0.0 sys=5.2
+                  "cygmenuw-10.dll" v0.0 ts=2019-07-28 17:32
+  100k 2021/08/21 C:\Vollzugriff\Programme\cygwin64\bin\cygmpc-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygmpc-3.dll" v0.0 ts=2021-08-21 19:35
+ 2663k 2021/08/21 C:\Vollzugriff\Programme\cygwin64\bin\cygmpfr-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygmpfr-6.dll" v0.0 ts=2021-08-21 19:01
+  591k 2021/07/11 C:\Vollzugriff\Programme\cygwin64\bin\cygnativeGLthunk.dll - os=4.0 img=0.0 sys=5.2
+                  "cygnativeGLthunk.dll" v0.0 ts=2021-07-11 15:20
+  301k 2019/07/28 C:\Vollzugriff\Programme\cygwin64\bin\cygncursesw-10.dll - os=4.0 img=0.0 sys=5.2
+                  "cygncursesw-10.dll" v0.0 ts=2019-07-28 17:30
+  205k 2019/02/19 C:\Vollzugriff\Programme\cygwin64\bin\cygnettle-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygnettle-6.dll" v0.0 ts=2019-02-19 06:59
+  155k 2021/09/26 C:\Vollzugriff\Programme\cygwin64\bin\cygnghttp2-14.dll - os=4.0 img=0.0 sys=5.2
+                  "cygnghttp2-14.dll" v0.0 ts=2021-09-26 04:55
+   30k 2015/03/19 C:\Vollzugriff\Programme\cygwin64\bin\cygntlm-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygntlm-0.dll" v0.0 ts=2015-03-19 02:15
+    7k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygOptRemarks-8.dll - os=4.0 img=8.0 sys=5.2
+                  "cygOptRemarks-8.dll" v0.0 ts=2019-08-27 00:12
+ 1020k 2020/03/27 C:\Vollzugriff\Programme\cygwin64\bin\cygp11-kit-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygp11-kit-0.dll" v0.0 ts=2020-03-27 22:30
+   14k 2019/07/28 C:\Vollzugriff\Programme\cygwin64\bin\cygpanelw-10.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpanelw-10.dll" v0.0 ts=2019-07-28 17:32
+  270k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygpango-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpango-1.0-0.dll" v0.0 ts=2018-02-12 00:40
+   44k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygpangocairo-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpangocairo-1.0-0.dll" v0.0 ts=2018-02-12 00:41
+   72k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygpangoft2-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpangoft2-1.0-0.dll" v0.0 ts=2018-02-12 00:40
+   28k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygpangoxft-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpangoxft-1.0-0.dll" v0.0 ts=2018-02-12 00:41
+  497k 2021/06/20 C:\Vollzugriff\Programme\cygwin64\bin\cygpcre-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpcre-1.dll" v0.0 ts=2021-06-20 12:53
+  460k 2021/06/20 C:\Vollzugriff\Programme\cygwin64\bin\cygpcre16-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpcre16-0.dll" v0.0 ts=2021-06-20 12:53
+  599k 2021/10/03 C:\Vollzugriff\Programme\cygwin64\bin\cygpcre2-8-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpcre2-8-0.dll" v0.0 ts=2021-10-03 20:01
+  443k 2021/06/20 C:\Vollzugriff\Programme\cygwin64\bin\cygpcre32-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpcre32-0.dll" v0.0 ts=2021-06-20 12:53
+   35k 2021/06/20 C:\Vollzugriff\Programme\cygwin64\bin\cygpcrecpp-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpcrecpp-0.dll" v0.0 ts=2021-06-20 12:53
+   11k 2021/06/20 C:\Vollzugriff\Programme\cygwin64\bin\cygpcreposix-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpcreposix-0.dll" v0.0 ts=2021-06-20 12:53
+   69k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygpeas-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpeas-1.0-0.dll" v0.0 ts=2018-02-12 04:57
+   47k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygpeas-gtk-1.0-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpeas-gtk-1.0-0.dll" v0.0 ts=2018-02-12 04:58
+ 3566k 2021/08/14 C:\Vollzugriff\Programme\cygwin64\bin\cygperl5_32.dll - os=4.0 img=0.0 sys=5.2
+                  "cygperl5_32.dll" v0.0 ts=2021-08-14 08:07
+   42k 2020/12/27 C:\Vollzugriff\Programme\cygwin64\bin\cygpipeline-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpipeline-1.dll" v0.0 ts=2020-12-27 14:15
+  651k 2020/11/30 C:\Vollzugriff\Programme\cygwin64\bin\cygpixman-1-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpixman-1-0.dll" v0.0 ts=2020-11-30 17:23
+   53k 2020/04/06 C:\Vollzugriff\Programme\cygwin64\bin\cygpkgconf-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpkgconf-3.dll" v0.0 ts=2020-04-06 17:37
+  185k 2019/07/21 C:\Vollzugriff\Programme\cygwin64\bin\cygpng16-16.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpng16-16.dll" v0.0 ts=2019-07-22 00:15
+ 1629k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygPolly-8.dll - os=4.0 img=0.0 sys=5.2
+                  "cygPolly-8.dll" v0.0 ts=2019-08-27 02:42
+ 1802k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygPollyISL-8.dll - os=4.0 img=0.0 sys=5.2
+                  "cygPollyISL-8.dll" v0.0 ts=2019-08-27 02:42
+  136k 2019/08/27 C:\Vollzugriff\Programme\cygwin64\bin\cygPollyPPCG-8.dll - os=4.0 img=0.0 sys=5.2
+                  "cygPollyPPCG-8.dll" v0.0 ts=2019-08-27 02:42
+   42k 2020/12/31 C:\Vollzugriff\Programme\cygwin64\bin\cygpopt-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpopt-0.dll" v0.0 ts=2020-12-31 12:16
+  109k 2017/09/27 C:\Vollzugriff\Programme\cygwin64\bin\cygproxy-1.dll - os=4.0 img=1.0 sys=5.2
+                  "cygproxy-1.dll" v0.0 ts=2017-09-27 17:56
+   69k 2021/05/21 C:\Vollzugriff\Programme\cygwin64\bin\cygpsl-5.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpsl-5.dll" v0.0 ts=2021-05-21 08:58
+    8k 2019/12/26 C:\Vollzugriff\Programme\cygwin64\bin\cygpspell-15.dll - os=4.0 img=0.0 sys=5.2
+                  "cygpspell-15.dll" v0.0 ts=2019-12-26 10:13
+  355k 2021/08/22 C:\Vollzugriff\Programme\cygwin64\bin\cygquadmath-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygquadmath-0.dll" v0.0 ts=2021-08-22 09:56
+   18k 2020/05/17 C:\Vollzugriff\Programme\cygwin64\bin\cygraqm-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygraqm-0.dll" v0.0 ts=2020-05-17 15:41
+  254k 2021/08/31 C:\Vollzugriff\Programme\cygwin64\bin\cygreadline7.dll - os=4.0 img=0.0 sys=5.2
+                  "cygreadline7.dll" v0.0 ts=2021-08-31 07:54
+   73k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygrest-0.7-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygrest-0.7-0.dll" v0.0 ts=2018-02-12 02:55
+   29k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygrest-extras-0.7-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygrest-extras-0.7-0.dll" v0.0 ts=2018-02-12 02:55
+  212k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygrsvg-2-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygrsvg-2-2.dll" v0.0 ts=2018-02-12 00:38
+   99k 2020/01/09 C:\Vollzugriff\Programme\cygwin64\bin\cygsasl2-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygsasl2-3.dll" v0.0 ts=2020-01-09 02:13
+  247k 2017/03/05 C:\Vollzugriff\Programme\cygwin64\bin\cygsecret-1-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygsecret-1-0.dll" v0.0 ts=2017-03-05 20:36
+   11k 2015/07/17 C:\Vollzugriff\Programme\cygwin64\bin\cygsigsegv-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygsigsegv-2.dll" v0.0 ts=2015-07-17 22:35
+   29k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygSM-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygSM-6.dll" v0.0 ts=2019-09-05 21:53
+  156k 2020/03/31 C:\Vollzugriff\Programme\cygwin64\bin\cygsmartcols-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygsmartcols-1.dll" v0.0 ts=2020-03-28 06:22
+  710k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygsoup-2.4-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygsoup-2.4-1.dll" v0.0 ts=2018-02-12 00:39
+   11k 2018/02/12 C:\Vollzugriff\Programme\cygwin64\bin\cygsoup-gnome-2.4-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygsoup-gnome-2.4-1.dll" v0.0 ts=2018-02-12 00:39
+ 1277k 2020/12/24 C:\Vollzugriff\Programme\cygwin64\bin\cygsqlite3-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygsqlite3-0.dll" v0.0 ts=2020-12-24 07:59
+  230k 2021/08/31 C:\Vollzugriff\Programme\cygwin64\bin\cygssh2-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygssh2-1.dll" v0.0 ts=2021-08-31 08:06
+  408k 2019/09/11 C:\Vollzugriff\Programme\cygwin64\bin\cygssl-1.0.0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygssl-1.0.0.dll" v0.0 ts=2019-09-11 18:40
+  506k 2020/04/08 C:\Vollzugriff\Programme\cygwin64\bin\cygssl-1.1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygssl-1.1.dll" v0.0 ts=2020-04-08 12:12
+ 1869k 2021/08/22 C:\Vollzugriff\Programme\cygwin64\bin\cygstdc++-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygstdc++-6.dll" v0.0 ts=2021-08-22 10:08
+   68k 2019/07/29 C:\Vollzugriff\Programme\cygwin64\bin\cygtasn1-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygtasn1-6.dll" v0.0 ts=2019-07-29 03:12
+   34k 2017/03/05 C:\Vollzugriff\Programme\cygwin64\bin\cygthai-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygthai-0.dll" v0.0 ts=2017-03-05 04:36
+   57k 2019/07/28 C:\Vollzugriff\Programme\cygwin64\bin\cygticw-10.dll - os=4.0 img=0.0 sys=5.2
+                  "cygticw-10.dll" v0.0 ts=2019-07-28 17:31
+  463k 2021/05/21 C:\Vollzugriff\Programme\cygwin64\bin\cygtiff-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygtiff-6.dll" v0.0 ts=2021-05-21 23:00
+   12k 2021/05/21 C:\Vollzugriff\Programme\cygwin64\bin\cygtiffxx-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygtiffxx-6.dll" v0.0 ts=2021-05-21 23:00
+  167k 2019/04/05 C:\Vollzugriff\Programme\cygwin64\bin\cygtirpc-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygtirpc-3.dll" v0.0 ts=2019-04-05 05:29
+ 1612k 2018/08/16 C:\Vollzugriff\Programme\cygwin64\bin\cygunistring-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygunistring-2.dll" v0.0 ts=2018-08-16 20:33
+   18k 2019/07/22 C:\Vollzugriff\Programme\cygwin64\bin\cygunwind-1.dll - os=4.0 img=1.0 sys=5.2
+                  "cygunwind-1.dll" v0.0 ts=2019-07-22 14:19
+   27k 2020/03/31 C:\Vollzugriff\Programme\cygwin64\bin\cyguuid-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cyguuid-1.dll" v0.0 ts=2020-03-28 06:22
+  347k 2016/08/10 C:\Vollzugriff\Programme\cygwin64\bin\cygvoikko-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygvoikko-1.dll" v0.0 ts=2016-08-10 22:32
+  411k 2018/02/27 C:\Vollzugriff\Programme\cygwin64\bin\cygwebp-7.dll - os=4.0 img=0.0 sys=5.2
+                  "cygwebp-7.dll" v0.0 ts=2018-02-27 09:00
+   17k 2018/02/27 C:\Vollzugriff\Programme\cygwin64\bin\cygwebpdemux-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygwebpdemux-2.dll" v0.0 ts=2018-02-27 09:00
+   39k 2018/02/27 C:\Vollzugriff\Programme\cygwin64\bin\cygwebpmux-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygwebpmux-3.dll" v0.0 ts=2018-02-27 09:00
+ 1167k 2021/06/26 C:\Vollzugriff\Programme\cygwin64\bin\cygX11-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygX11-6.dll" v0.0 ts=2021-06-26 16:35
+    8k 2021/06/26 C:\Vollzugriff\Programme\cygwin64\bin\cygX11-xcb-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygX11-xcb-1.dll" v0.0 ts=2021-06-26 16:35
+   13k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXau-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXau-6.dll" v0.0 ts=2019-09-05 18:13
+  396k 2021/04/18 C:\Vollzugriff\Programme\cygwin64\bin\cygXaw-7.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXaw-7.dll" v0.0 ts=2021-04-18 15:05
+  135k 2020/04/04 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-1.dll" v0.0 ts=2020-04-04 13:35
+   12k 2020/04/04 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-composite-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-composite-0.dll" v0.0 ts=2020-04-04 13:36
+   40k 2014/08/10 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-ewmh-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-ewmh-2.dll" v0.0 ts=1970-01-01 00:00
+   83k 2020/04/04 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-glx-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-glx-0.dll" v0.0 ts=2020-04-04 13:36
+   17k 2014/08/10 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-icccm-4.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-icccm-4.dll" v0.0 ts=1970-01-01 00:00
+   17k 2020/04/01 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-image-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-image-0.dll" v0.0 ts=2020-04-01 17:09
+   44k 2020/04/04 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-render-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-render-0.dll" v0.0 ts=2020-04-04 13:36
+   12k 2020/04/04 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-shm-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-shm-0.dll" v0.0 ts=2020-04-04 13:36
+   18k 2020/04/01 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-util-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-util-1.dll" v0.0 ts=2020-04-01 17:51
+   27k 2020/04/04 C:\Vollzugriff\Programme\cygwin64\bin\cygxcb-xfixes-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxcb-xfixes-0.dll" v0.0 ts=2020-04-04 13:36
+   11k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXcomposite-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXcomposite-1.dll" v0.0 ts=2019-09-05 22:09
+   36k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXcursor-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXcursor-1.dll" v0.0 ts=2019-09-05 22:09
+   11k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXdamage-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXdamage-1.dll" v0.0 ts=2019-09-05 22:36
+   21k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXdmcp-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXdmcp-6.dll" v0.0 ts=2019-09-05 18:29
+   60k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXext-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXext-6.dll" v0.0 ts=2019-09-05 20:44
+   21k 2021/06/06 C:\Vollzugriff\Programme\cygwin64\bin\cygXfixes-3.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXfixes-3.dll" v0.0 ts=2021-06-06 17:20
+  212k 2021/10/07 C:\Vollzugriff\Programme\cygwin64\bin\cygXfont2-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXfont2-2.dll" v0.0 ts=2021-10-07 14:34
+   78k 2021/10/06 C:\Vollzugriff\Programme\cygwin64\bin\cygXft-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXft-2.dll" v0.0 ts=2021-10-06 17:00
+   65k 2021/10/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXi-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXi-6.dll" v0.0 ts=2021-10-05 14:41
+   11k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXinerama-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXinerama-1.dll" v0.0 ts=2019-09-05 22:03
+  134k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygxkbfile-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxkbfile-1.dll" v0.0 ts=2019-09-05 23:41
+ 1238k 2020/09/11 C:\Vollzugriff\Programme\cygwin64\bin\cygxml2-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxml2-2.dll" v0.0 ts=2020-09-11 15:37
+   88k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXmu-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXmu-6.dll" v0.0 ts=2019-09-05 23:40
+   15k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXmuu-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXmuu-1.dll" v0.0 ts=2019-09-05 23:40
+   64k 2020/04/02 C:\Vollzugriff\Programme\cygwin64\bin\cygXpm-4.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXpm-4.dll" v0.0 ts=2020-04-02 15:14
+   37k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXrandr-2.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXrandr-2.dll" v0.0 ts=2019-09-05 22:53
+   38k 2020/04/01 C:\Vollzugriff\Programme\cygwin64\bin\cygXrender-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXrender-1.dll" v0.0 ts=2020-04-01 23:28
+   12k 2019/09/05 C:\Vollzugriff\Programme\cygwin64\bin\cygXss-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXss-1.dll" v0.0 ts=2019-09-05 22:04
+  343k 2021/04/14 C:\Vollzugriff\Programme\cygwin64\bin\cygXt-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXt-6.dll" v0.0 ts=2021-04-14 12:49
+   22k 2016/10/09 C:\Vollzugriff\Programme\cygwin64\bin\cygXtst-6.dll - os=4.0 img=0.0 sys=5.2
+                  "cygXtst-6.dll" v0.0 ts=2016-10-09 18:54
+   37k 2020/09/06 C:\Vollzugriff\Programme\cygwin64\bin\cygxxhash-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygxxhash-0.dll" v0.0 ts=2020-09-07 00:04
+   83k 2017/03/03 C:\Vollzugriff\Programme\cygwin64\bin\cygz.dll - os=4.0 img=0.0 sys=5.2
+                  "cygz.dll" v0.0 ts=2017-03-03 21:42
+  945k 2021/05/16 C:\Vollzugriff\Programme\cygwin64\bin\cygzstd-1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygzstd-1.dll" v0.0 ts=2021-05-16 06:27
+ 3533k 2021/03/29 C:\Vollzugriff\Programme\cygwin64\bin\cygwin1.dll - os=4.0 img=0.0 sys=5.2
+                  "cygwin1.dll" v0.0 ts=2021-03-29 09:42
+    Cygwin DLL version info:
+        DLL version: 3.2.0
+        DLL epoch: 19
+        DLL old termios: 5
+        DLL malloc env: 28
+        Cygwin conv: 181
+        API major: 0
+        API minor: 340
+        Shared data: 5
+        DLL identifier: cygwin1
+        Mount registry: 3
+        Cygwin registry name: Cygwin
+        Installations name: Installations
+        Cygdrive default prefix: 
+        Build date: 
+        Shared id: cygwin1S5
+
+  445k 2021/04/02 C:\Vollzugriff\Programme\cygwin64\lib\lapack\cygblas-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cygblas-0.dll" v0.0 ts=2021-04-02 16:12
+ 7015k 2021/04/02 C:\Vollzugriff\Programme\cygwin64\lib\lapack\cyglapack-0.dll - os=4.0 img=0.0 sys=5.2
+                  "cyglapack-0.dll" v0.0 ts=2021-04-02 16:12
+
+No Cygwin services found.
+
+
+Cygwin Package Information
+Last downloaded files to: C:\Vollzugriff\Pakete\2021\Cygwin
+Last downloaded files from: https://ftp.inf.tu-dresden.de/software/windows/cygwin32/
+
+Package                                Version                         Status
+_autorebase                            001007-1                        OK
+adwaita-icon-theme                     3.26.1-1                        OK
+adwaita-themes                         3.22.3-1                        OK
+alternatives                           1.3.30c-10                      OK
+asciinema                              1.4.0-1                         OK
+at-spi2-core                           2.26.2-1                        OK
+base-cygwin                            3.8-1                           OK
+base-files                             4.3-3                           OK
+bash                                   4.4.12-3                        OK
+binutils                               2.37-2                          OK
+bzip2                                  1.0.8-1                         OK
+ca-certificates                        2.50-4                          OK
+clang                                  8.0.1-1                         OK
+compiler-rt                            8.0.1-1                         OK
+coreutils                              8.26-2                          OK
+crypto-policies                        20190218-1                      OK
+csih                                   0.9.11-1                        OK
+cygrunsrv                              1.62-1                          OK
+cygutils                               1.4.16-7                        OK
+cygwin                                 3.2.0-1                         OK
+cygwin-devel                           3.2.0-1                         OK
+dash                                   0.5.11.5-1                      OK
+dbus                                   1.10.22-1                       OK
+dbus-x11                               1.10.22-1                       OK
+dconf-service                          0.26.1-1                        OK
+dejavu-fonts                           2.37-1                          OK
+desktop-file-utils                     0.23-1                          OK
+diffutils                              3.8-1                           OK
+dos2unix                               7.4.2-1                         OK
+dri-drivers                            19.1.6-1                        OK
+editrights                             1.03-1                          OK
+file                                   5.39-1                          OK
+findutils                              4.8.0-1                         OK
+gamin                                  0.1.10-15                       OK
+gawk                                   5.1.0-1                         OK
+gcc-core                               11.2.0-1                        OK
+gcc-g++                                11.2.0-1                        OK
+gcr                                    3.20.0-1                        OK
+gdk-pixbuf2.0-svg                      2.40.20-1                       OK
+getent                                 2.18.90-4                       OK
+girepository-Atk1.0                    2.26.1-1                        OK
+girepository-cairo1.0                  1.54.1-3                        OK
+girepository-GdkPixbuf2.0              2.36.11-1                       OK
+girepository-Gee0.8                    0.20.1-1                        OK
+girepository-Ggit1.0                   0.26.2-1                        OK
+girepository-GLib2.0                   1.54.1-3                        OK
+girepository-Gtk3.0                    3.22.28-1                       OK
+girepository-HarfBuzz0.0               2.9.0-2                         OK
+girepository-Pango1.0                  1.40.14-1                       OK
+girepository-x11                       1.54.1-3                        OK
+git                                    2.33.0-1                        OK
+git-gui                                2.33.0-1                        OK
+gitg                                   3.26.0-1                        OK
+gitk                                   2.33.0-1                        OK
+glib2.0-networking                     2.54.1-1                        OK
+gnome-keyring                          3.20.1-1                        OK
+gnome-menus                            3.13.3-3                        OK
+grep                                   3.7-2                           OK
+groff                                  1.22.4-1                        OK
+gsettings-desktop-schemas              3.24.1-1                        OK
+gtk-update-icon-cache                  3.22.28-1                       OK
+gtk2.0-engines-pixmap                  2.24.32-1                       OK
+gzip                                   1.11-1                          OK
+hicolor-icon-theme                     0.15-1                          OK
+hostname                               3.13-1                          OK
+info                                   6.8-2                           OK
+ipc-utils                              1.0-2                           OK
+iso-codes                              4.3-1                           OK
+less                                   590-1                           OK
+libargp                                20110921-3                      OK
+libaspell15                            0.60.8-1                        OK
+libatk-bridge2.0_0                     2.26.1-1                        OK
+libatk1.0_0                            2.26.1-1                        OK
+libatomic1                             11.2.0-1                        OK
+libatspi0                              2.26.2-1                        OK
+libattr1                               2.4.48-2                        OK
+libblkid1                              2.33.1-2                        OK
+libbrotli-devel                        1.0.9-2                         OK
+libbrotlicommon1                       1.0.9-2                         OK
+libbrotlidec1                          1.0.9-2                         OK
+libbrotlienc1                          1.0.9-2                         OK
+libbz2_1                               1.0.8-1                         OK
+libc++-devel                           8.0.1-1                         OK
+libc++1                                8.0.1-1                         OK
+libc++abi-devel                        8.0.1-1                         OK
+libc++abi1                             8.0.1-1                         OK
+libcairo2                              1.17.4-1                        OK
+libcbor                                0.5.0-1                         OK
+libclang8                              8.0.1-1                         OK
+libcom_err2                            1.44.5-1                        OK
+libcroco0.6_3                          0.6.12-1                        OK
+libcrypt-devel                         4.4.20-1                        OK
+libcrypt2                              4.4.20-1                        OK
+libcurl4                               7.79.1-1                        OK
+libdatrie1                             0.2.8-1                         OK
+libdb5.3                               5.3.28-2                        OK
+libdbus1_3                             1.10.22-1                       OK
+libdeflate0                            1.8-1                           OK
+libedit0                               20130712-1                      OK
+libenchant1                            1.6.1-1                         OK
+libepoxy0                              1.4.3-1                         OK
+libexpat1                              2.4.1-1                         OK
+libfam0                                0.1.10-15                       OK
+libfdisk1                              2.33.1-2                        OK
+libffi6                                3.2.1-2                         OK
+libfido2                               1.5.0-2                         OK
+libfontconfig-common                   2.13.1-2                        OK
+libfontconfig1                         2.13.1-2                        OK
+libfontenc1                            1.1.4-1                         OK
+libfreetype-devel                      2.11.0-2                        OK
+libfreetype6                           2.11.0-2                        OK
+libfribidi-devel                       0.19.7-1                        OK
+libfribidi0                            0.19.7-1                        OK
+libgc1                                 8.0.6-1                         OK
+libgcc1                                11.2.0-1                        OK
+libgck1_0                              3.20.0-1                        OK
+libgcr-base3_1                         3.20.0-1                        OK
+libgcr-ui3-common                      3.20.0-1                        OK
+libgcr-ui3_1                           3.20.0-1                        OK
+libgcrypt20                            1.8.2-1                         OK
+libgdbm6                               1.18.1-1                        OK
+libgdbm_compat4                        1.18.1-1                        OK
+libgdk_pixbuf2.0_0                     2.36.11-1                       OK
+libgee0.8_2                            0.20.1-1                        OK
+libgfortran4                           7.4.0-1                         OK
+libgfortran5                           11.2.0-1                        OK
+libgirepository1.0_1                   1.54.1-3                        OK
+libgit2-glib1.0_0                      0.26.2-1                        OK
+libgit2_25                             0.25.1-1                        OK
+libGL1                                 19.1.6-1                        OK
+libglapi0                              19.1.6-1                        OK
+libglib2.0-devel                       2.54.3-1                        OK
+libglib2.0_0                           2.54.3-1                        OK
+libgmp10                               6.2.1-2                         OK
+libgnome-menu3_0                       3.13.3-3                        OK
+libgnutls30                            3.6.9-1                         OK
+libgomp1                               11.2.0-1                        OK
+libgpg-error0                          1.37-1                          OK
+libgraphite2-devel                     1.3.14-1                        OK
+libgraphite2_3                         1.3.14-1                        OK
+libgsasl-common                        1.8.0-4                         OK
+libgsasl7                              1.8.0-4                         OK
+libgssapi_krb5_2                       1.15.2-2                        OK
+libgtk2.0_0                            2.24.32-1                       OK
+libgtk3_0                              3.22.28-1                       OK
+libgtksourceview3.0-common             3.24.6-1                        OK
+libgtksourceview3.0_1                  3.24.6-1                        OK
+libgtkspell3-common                    3.0.9-1                         OK
+libgtkspell3_3_0                       3.0.9-1                         OK
+libguile2.2_1                          2.2.7-1                         OK
+libharfbuzz-devel                      2.9.0-2                         OK
+libharfbuzz-gobject0                   2.9.0-2                         OK
+libharfbuzz0                           2.9.0-2                         OK
+libhogweed4                            3.4.1-1                         OK
+libhunspell1.6_0                       1.6.1-1                         OK
+libICE6                                1.0.10-1                        OK
+libiconv2                              1.16-2                          OK
+libidn11                               1.33-1                          OK
+libidn2_0                              2.3.2-1                         OK
+libimagequant-devel                    2.10.0-1                        OK
+libimagequant0                         2.10.0-1                        OK
+libintl-devel                          0.21-1                          OK
+libintl8                               0.21-1                          OK
+libisl22                               0.22.1-2                        OK
+libisl23                               0.24-2                          OK
+libjasper4                             2.0.14-1                        OK
+libjbig2                               2.1-2                           OK
+libjpeg-devel                          2.1.1p3-1                       OK
+libjpeg8                               2.1.1p3-1                       OK
+libjson-glib1.0_0                      1.4.2-1                         OK
+libk5crypto3                           1.15.2-2                        OK
+libkrb5_3                              1.15.2-2                        OK
+libkrb5support0                        1.15.2-2                        OK
+liblapack0                             3.9.1-1                         OK
+liblcms2_2                             2.12-1                          OK
+libllvm8                               8.0.1-1                         OK
+libltdl7                               2.4.6-7                         OK
+liblz4_1                               1.7.5-1                         OK
+liblzma5                               5.2.4-1                         OK
+libmcpp0                               2.7.2-2                         OK
+libmpc3                                1.2.1-2                         OK
+libmpfr6                               4.1.0-2                         OK
+libncursesw10                          6.1-1.20190727                  OK
+libnettle6                             3.4.1-1                         OK
+libnghttp2_14                          1.45.1-1                        OK
+libntlm0                               1.4-1                           OK
+libopenblas                            0.3.18-1                        OK
+libopenldap2_4_2                       2.4.59-1                        OK
+libopenldap2_5_0                       2.5.8-1                         OK
+libp11-kit0                            0.23.20-1                       OK
+libpango1.0_0                          1.40.14-1                       OK
+libpcre-devel                          8.45-1                          OK
+libpcre1                               8.45-1                          OK
+libpcre16_0                            8.45-1                          OK
+libpcre2_8_0                           10.38-1                         OK
+libpcre32_0                            8.45-1                          OK
+libpcrecpp0                            8.45-1                          OK
+libpcreposix0                          8.45-1                          OK
+libpeas-common                         1.22.0-1                        OK
+libpeas1.0_0                           1.22.0-1                        OK
+libpipeline1                           1.5.3-1                         OK
+libpixman1_0                           0.40.0-1                        OK
+libpkgconf3                            1.6.3-1                         OK
+libpng-devel                           1.6.37-1                        OK
+libpng16                               1.6.37-1                        OK
+libpng16-devel                         1.6.37-1                        OK
+libpolly8                              8.0.1-1                         OK
+libpopt-common                         1.18-1                          OK
+libpopt0                               1.18-1                          OK
+libproxy1                              0.4.14-2                        OK
+libpsl5                                0.21.1-1                        OK
+libquadmath0                           11.2.0-1                        OK
+libraqm-devel                          0.7.0-1                         OK
+libraqm0                               0.7.0-1                         OK
+libreadline7                           8.1-2                           OK
+librest0.7_0                           0.8.1-1                         OK
+librsvg2_2                             2.40.20-1                       OK
+libsasl2_3                             2.1.27-1                        OK
+libsecret1_0                           0.18.5-1                        OK
+libsigsegv2                            2.10-2                          OK
+libSM6                                 1.2.3-1                         OK
+libsmartcols1                          2.33.1-2                        OK
+libsoup-gnome2.4_1                     2.60.3-1                        OK
+libsoup2.4_1                           2.60.3-1                        OK
+libsqlite3_0                           3.34.0-1                        OK
+libssh2_1                              1.10.0-1                        OK
+libssl1.0                              1.0.2t-1                        OK
+libssl1.1                              1.1.1f-1                        OK
+libstdc++6                             11.2.0-1                        OK
+libtasn1_6                             4.14-1                          OK
+libthai0                               0.1.26-1                        OK
+libtiff-devel                          4.3.0-1                         OK
+libtiff6                               4.3.0-1                         OK
+libtirpc-common                        1.1.4-1                         OK
+libtirpc3                              1.1.4-1                         OK
+libunistring2                          0.9.10-1                        OK
+libunwind-devel                        8.0.1-1                         OK
+libunwind1                             8.0.1-1                         OK
+libuuid-devel                          2.33.1-2                        OK
+libuuid1                               2.33.1-2                        OK
+libvoikko1                             3.8-1                           OK
+libwebp7                               0.6.1-2                         OK
+libwebpdemux2                          0.6.1-2                         OK
+libwebpmux3                            0.6.1-2                         OK
+libX11-xcb1                            1.7.2-1                         OK
+libX11_6                               1.7.2-1                         OK
+libXau6                                1.0.9-1                         OK
+libXaw7                                1.0.14-1                        OK
+libxcb-composite0                      1.14-1                          OK
+libxcb-ewmh2                           0.4.1-1                         OK
+libxcb-glx0                            1.14-1                          OK
+libxcb-icccm4                          0.4.1-1                         OK
+libxcb-image0                          0.4.0-1                         OK
+libxcb-render0                         1.14-1                          OK
+libxcb-shm0                            1.14-1                          OK
+libxcb-util1                           0.4.0-1                         OK
+libxcb-xfixes0                         1.14-1                          OK
+libxcb1                                1.14-1                          OK
+libXcomposite1                         0.4.5-1                         OK
+libXcursor1                            1.2.0-1                         OK
+libXdamage1                            1.1.5-1                         OK
+libXdmcp6                              1.1.3-1                         OK
+libXext6                               1.3.4-1                         OK
+libXfixes3                             6.0.0-1                         OK
+libXfont2_2                            2.0.5-1                         OK
+libXft2                                2.3.4-1                         OK
+libXi6                                 1.8-1                           OK
+libXinerama1                           1.1.4-1                         OK
+libxkbfile1                            1.1.0-1                         OK
+libxml2                                2.9.10-2                        OK
+libXmu6                                1.1.3-1                         OK
+libXmuu1                               1.1.3-1                         OK
+libXpm4                                3.5.13-1                        OK
+libXrandr2                             1.5.2-1                         OK
+libXrender1                            0.9.10-1                        OK
+libXss1                                1.2.3-1                         OK
+libXt6                                 1.2.1-1                         OK
+libXtst6                               1.2.3-1                         OK
+libxxhash0                             0.8.0-1                         OK
+libzstd1                               1.5.0-1                         OK
+login                                  1.13-1                          OK
+luit                                   20210218-1                      OK
+make                                   4.3-1                           OK
+man-db                                 2.9.4-1                         OK
+mcpp                                   2.7.2-2                         OK
+mintty                                 3.5.1-1                         OK
+ncurses                                6.1-1.20190727                  OK
+openssh                                8.8p1-1                         OK
+openssl                                1.1.1f-1                        OK
+p11-kit                                0.23.20-1                       OK
+p11-kit-trust                          0.23.20-1                       OK
+perl                                   5.32.1-2                        OK
+perl-Error                             0.17029-2                       OK
+perl-Scalar-List-Utils                 1.60-1                          OK
+perl-TermReadKey                       2.38-3                          OK
+perl_autorebase                        5.32.1-2                        OK
+perl_base                              5.32.1-2                        OK
+pkg-config                             1.6.3-1                         OK
+pkgconf                                1.6.3-1                         OK
+publicsuffix-list-dafsa                20210519-1                      OK
+python-pip-wheel                       19.2.3-1                        OK
+python-setuptools-wheel                41.2.0-1                        OK
+python-wheel-wheel                     0.36.2-1                        OK
+python2                                2.7.18-4                        OK
+python27                               2.7.18-4                        OK
+python27-pip                           20.3.3-2                        OK
+python27-setuptools                    41.2.0-1                        OK
+python3                                3.8.6-1                         OK
+python3-wx-common                      4.0.7.post2-4                   OK
+python36                               3.6.13-2                        OK
+python36-pip                           21.1.1-1                        OK
+python36-setuptools                    51.1.1-1                        OK
+python38                               3.8.10-1                        OK
+python38-alabaster                     0.7.12-2                        OK
+python38-appdirs                       1.4.4-1                         OK
+python38-attrs                         20.3.0-1                        OK
+python38-babel                         2.9.0-1                         OK
+python38-backcall                      0.2.0-1                         OK
+python38-cairo                         1.19.1-1                        OK
+python38-cffi                          1.14.4-1                        OK
+python38-chardet                       4.0.0-1                         OK
+python38-cycler                        0.10.0-1                        OK
+python38-cython                        0.29.21-3                       OK
+python38-dateutil                      2.8.1-1                         OK
+python38-decorator                     4.4.2-1                         OK
+python38-devel                         3.8.10-1                        OK
+python38-distlib                       0.3.1-1                         OK
+python38-docutils                      0.16-1                          OK
+python38-filelock                      3.0.12-1                        OK
+python38-gi                            3.36.1-1                        OK
+python38-idna                          3.1-1                           OK
+python38-imagesize                     1.2.0-1                         OK
+python38-imaging                       8.1.2-1                         OK
+python38-imaging-tk                    8.1.2-1                         OK
+python38-ipython                       7.19.0-1                        OK
+python38-ipython_genutils              0.2.0-2                         OK
+python38-jinja2                        2.11.2-1                        OK
+python38-kiwisolver                    1.3.1-1                         OK
+python38-markupsafe                    1.1.1-2                         OK
+python38-matplotlib                    3.3.3-1                         OK
+python38-nose                          1.3.7-3                         OK
+python38-numpy                         1.19.4-1                        OK
+python38-olefile                       0.46-2                          OK
+python38-packaging                     20.4-1                          OK
+python38-pexpect                       4.8.0-1                         OK
+python38-pickleshare                   0.7.5-2                         OK
+python38-pip                           21.1.1-1                        OK
+python38-ply                           3.11-2                          OK
+python38-prompt_toolkit                3.0.10-1                        OK
+python38-ptyprocess                    0.6.0-2                         OK
+python38-pycparser                     2.20-1                          OK
+python38-pygments                      2.7.3-1                         OK
+python38-pyparsing                     2.4.7-1                         OK
+python38-pytest                        6.2.1-1                         OK
+python38-pytz                          2020.5-1                        OK
+python38-requests                      2.25.1-1                        OK
+python38-setuptools                    51.1.1-1                        OK
+python38-six                           1.15.0-1                        OK
+python38-snowballstemmer               2.0.0-1                         OK
+python38-sphinx                        3.4.3-1                         OK
+python38-sphinx_rtd_theme              0.4.3-2                         OK
+python38-sphinxcontrib-applehelp       1.0.2-1                         OK
+python38-sphinxcontrib-devhelp         1.0.2-1                         OK
+python38-sphinxcontrib-htmlhelp        1.0.3-1                         OK
+python38-sphinxcontrib-jsmath          1.0.1-1                         OK
+python38-sphinxcontrib-qthelp          1.0.3-1                         OK
+python38-sphinxcontrib-serializinghtml 1.1.4-1                         OK
+python38-sphinxcontrib-websupport      1.2.4-1                         OK
+python38-sqlalchemy                    1.3.22-1                        OK
+python38-testpath                      0.4.4-1                         OK
+python38-tkinter                       3.8.10-1                        OK
+python38-traitlets                     5.0.5-1                         OK
+python38-urllib3                       1.26.2-1                        OK
+python38-virtualenv                    20.2.2-1                        OK
+python38-wcwidth                       0.2.5-1                         OK
+python38-whoosh                        2.7.4-3                         OK
+python38-wx                            4.0.7.post2-4                   OK
+rebase                                 4.5.0-1                         OK
+rsync                                  3.2.3+20200903+git9f9240b-4     OK
+run                                    1.3.4-2                         OK
+sed                                    4.8-1                           OK
+setxkbmap                              1.3.2-1                         OK
+shared-mime-info                       2.1-1                           OK
+suomi-malaga                           1.19-1                          OK
+tar                                    1.34-1                          OK
+tcl                                    8.6.11-1                        OK
+tcl-devel                              8.6.11-1                        OK
+tcl-tix                                8.4.3-3                         OK
+tcl-tk                                 8.6.11-1                        OK
+tcl-tk-devel                           8.6.11-1                        OK
+terminfo                               6.1-1.20190727                  OK
+terminfo-extra                         6.1-1.20190727                  OK
+tzcode                                 2021d-1                         OK
+tzdata                                 2021d-1                         OK
+util-linux                             2.33.1-2                        OK
+vim                                    8.2.0486-1                      OK
+vim-clang-format                       8.0.1-1                         OK
+vim-common                             8.2.0486-1                      OK
+vim-doc                                8.2.0486-1                      OK
+vim-minimal                            8.2.0486-1                      OK
+w32api-headers                         9.0.0-1                         OK
+w32api-runtime                         9.0.0-1                         OK
+which                                  2.20-2                          OK
+windows-default-manifest               6.4-1                           OK
+xauth                                  1.1-1                           OK
+xcursor-themes                         1.0.6-1                         OK
+xdg-user-dirs                          0.16-1                          OK
+xinit                                  1.4.1-1                         OK
+xkbcomp                                1.4.5-1                         OK
+xkeyboard-config                       2.33-1                          OK
+xmodmap                                1.0.10-1                        OK
+xorg-server                            1.20.12-1                       OK
+xorg-server-common                     1.20.12-1                       OK
+xorg-x11-fonts-dpi75                   7.5-4                           OK
+xrdb                                   1.2.1-1                         OK
+xterm                                  363-1                           OK
+xwin-xdg-menu                          20210918-1                      OK
+xxd                                    8.2.0486-1                      OK
+xz                                     5.2.4-1                         OK
+zlib-devel                             1.2.11-1                        OK
+zlib0                                  1.2.11-1                        OK
+zstd                                   1.5.0-1                         OK
+Use -h to see help about each section

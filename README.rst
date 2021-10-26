@@ -290,3 +290,50 @@ The error has been reproduced.
 
 Reinstalled ``libfreetype-devel-2.11.0-2``, ``libharfbuzz-devel-2.9.0-2``
 and ``libraqm-devel-0.7.0-1``.
+
+
+**--- 26 October 2021 ---**
+
+Diagnosing the Problem with Pillow Upstream
+===========================================
+
+I filed an Issue with `Pillow <https://github.com/python-pillow/Pillow>`_
+to gather additional information (`#5974
+<https://github.com/python-pillow/Pillow/issues/5795>`_).
+
+
+`Comment by DWesl on 25 October 16:43 <https://github.com/python-pillow/Pillow/issues/5795#issuecomment-951001258>`_
+--------------------------------------------------------------------------------------------------------------------
+
+*   The output of ``cygcheck -svr`` is provided in file
+    `[c01] <Logs/c01\ cygcheck\ -svr.txt>`_.
+
+*   Running ``python [-v[v]] -c 'import PIL._imagingtk'`` produces the
+    following output:
+
+    1.  ``python -c 'import PIL._imagingtk'``: `[d01] <Logs/d01\ python\ -c\
+        import\ PIL._imagingtk.txt>`_
+
+    2.  ``python -v -c 'import PIL._imagingtk'``: `[d02] <Logs/d02\ python\
+        -v\ -c\ import\ PIL._imagingtk.txt>`_
+
+    3.  ``python -vv -c 'import PIL._imagingtk'``: `[d03] <Logs/d03\ python\
+        -vv\ -c\ import\ PIL._imagingtk.txt>`_
+
+*   Checking the extension DLLs:
+
+    1.  Running ``cygcheck``:
+
+        a.  ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e01] <Logs/e01\
+            cygcheck\ .__imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
+
+        b.  All ``.dll`` files: `[e02] <Logs/e02\ cygcheck\ .__.dll.txt>`_
+
+    2.  Checking executability: `[e03] <Logs/e03\ ls\ -l\ _.dll.txt>`_
+
+    3.  Running ``ldd``:
+
+        a.  ``_imagingtk.cpython-38-x86_64-cygwin.dll``: `[e04] <Logs/e04\
+            ldd\ _imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
+
+        b.  All ``.dll`` files: `[e05] <Logs/e05\ ldd\ _.dll.txt>`_
