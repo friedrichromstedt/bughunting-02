@@ -297,13 +297,15 @@ and ``libraqm-devel-0.7.0-1``.
 Diagnosing the Problem with Pillow Upstream
 ===========================================
 
+Issue #5974 on the Pillow github.com Repository
+-----------------------------------------------
+
 I filed an Issue with `Pillow <https://github.com/python-pillow/Pillow>`_
 to gather additional information (`#5974
 <https://github.com/python-pillow/Pillow/issues/5795>`_).
 
-
-`Comment by DWesl on 25 October 16:43 <https://github.com/python-pillow/Pillow/issues/5795#issuecomment-951001258>`_
---------------------------------------------------------------------------------------------------------------------
+Diagnostic output as requested in a `Comment by DWesl on 25 October 16:43
+<https://github.com/python-pillow/Pillow/issues/5795#issuecomment-951001258>`_:
 
 *   The output of ``cygcheck -svr`` is provided in file
     `[c01] <Logs/c01%20cygcheck%20-svr.txt>`_.
