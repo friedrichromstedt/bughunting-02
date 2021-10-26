@@ -304,6 +304,10 @@ I filed an Issue with `Pillow <https://github.com/python-pillow/Pillow>`_
 to gather additional information (`#5974
 <https://github.com/python-pillow/Pillow/issues/5795>`_).
 
+
+Diagnostic Information (26 October 2021)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Diagnostic output as requested in a `Comment by DWesl on 25 October 16:43
 <https://github.com/python-pillow/Pillow/issues/5795#issuecomment-951001258>`_:
 
