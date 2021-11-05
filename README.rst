@@ -343,3 +343,80 @@ Diagnostic output as requested in a `Comment by DWesl on 25 October 16:43
             <Logs/e04%20ldd%20_imagingtk.cpython-38-x86_64-cygwin.dll.txt>`_
 
         b.  on all ``.dll`` files: `[e05] <Logs/e05%20ldd%20_.dll.txt>`_
+
+
+**--- 4 November 2021 ---**
+
+Proposal of a Fix from Upstream
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`DWesl <https://github.com/DWesl>`__ mentioned in `a comment
+<https://github.com/python-pillow/Pillow/issues/5795#issuecomment-959748416>`_
+on `Pillow Issue #5795
+<https://github.com/python-pillow/Pillow/issues/5795>`__ Pull Request
+`#5807 <https://github.com/python-pillow/Pillow/pull/5807>`__ to Pillow
+Upstream.  Compiling `the Pillow version referenced therein
+<https://github.com/DWesl/Pillow/tree/tkimaging-on-cygwin>`__ *solves the
+problem*.
+
+I used a virtualenv to diagnose this success.  By mistake in ran ``$ pip
+install -U Pillow`` *in the checked-out repository root*, which I made
+undone by ``$ pip uninstall Pillow``.  After this I used the proper command
+``$ make install`` in the same filesystem location (`[Logs2/b01]
+<Logs2/b01%20make%20install.txt>`__).  I verified that the Pillow version
+containing the fix was made available::
+
+    $ python
+    >>> import PIL
+    >>> PIL.__version__
+    '9.0.0.dev0'
+
+The reproduction script contained as `reproduce.py <reproduce.py>`__ in
+this README file's repository now *executes flawlessly*.
+
+The following Cygwin dependency packages have been used:
+
+*   ``libjpeg``: ``libjpeg8-2.1.1p3-1`` + ``libjpeg-devel-2.1.1p3-1``;
+*   ``zlib``: ``zlib0-1.2.11-1`` + ``zlib-devel-1.2.11-1``;
+*   ``libtiff``: ``libtiff6-4.3.0-1`` + ``libtiff-devel-4.3.0-1``;
+*   ``libfreetype``: ``libfreetype6-2.11.0-2`` +
+    ``libfreetype-devel-2.11.0-2``;
+*   ``libwebp``: ``libwebp7-0.6.1-2`` + ``libwebp-devel-0.6.1-2``;
+*   ``tcl/tk``: ``tcl-8.6.11-1`` + ``tcl-devel-8.6.11-1`` + ``tcl-tk-8.6.11-1``
+    + ``tcl-tk-devel-8.6.11-1``;
+*   ``libimagequant``: ``libimagequant0-2.10.0-1`` +
+    ``libimagequant-devel-2.10.0-1``;
+*   ``libraqm``: ``libraqm0-0.7.0-1`` + ``libraqm-devel-0.7.0-1``;
+*   ``libxcb``: ``libxcb1-1.14-1`` + ``libxcb-devel-1.14-1``.
+
+The following dependencies have *not* been met:
+
+*   ``littlecms``: I couldn't find an appropriate Cygwin package.
+*   ``openjpeg``: There is ``openjpeg-1.5.2-3`` +
+    ``openjpeg-devel-1.5.2-3`` available, but
+    https://pillow.readthedocs.io/en/stable/installation.html#building-from-source
+    states: *Pillow does not support the earlier 1.5 series which ships
+    with Debian Jessie.* And: *Pillow has been tested with openjpeg 2.0.0,
+    2.1.0, 2.3.1 and 2.4.0*.  There is another package ``openjpeg2``, but
+    this seems to not have an accompanying ``-devel`` package, so I skipped
+    JPEG2000 support.
+
+Installing these packages pulled in a few other dependencies, which are
+skipped here.
+
+The selftest passes with these packages (see the bottom end of `[Logs2/b01]
+<Logs2/b01%20make%20install.txt>`__).
+
+**--- 5 November 2021 ---**
+
+DWesl's branch was compiled by ``$ make install``, while all other previous
+attempts used ``$ pip install -U Pillow`` and related commands.  Thus, I
+compiled also the `current main branch of Pillow Upstream
+<https://github.com/python-pillow/Pillow>`__ by ``$ make install``
+(`[Logs3/a02] <Logs3/a02%20make%20install.txt>`__) and verified that the
+`reproduction script <reproduce.py>`__ still fails with it (`[Logs3/a03]
+<Logs3/a03%20python%20reproduce.py.txt>`__.  ``$ make install`` just calls
+``$ python3 setup.py install``; using ``pip`` creates a wheel.  By this it
+is verified also in this aspect that it are the changes in `DWesl's
+repository <https://github.com/DWesl/Pillow/tree/tkimaging-on-cygwin>`__
+which make the `reproduction script <reproduce.py>`__ succeed.

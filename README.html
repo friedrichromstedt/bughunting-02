@@ -562,6 +562,7 @@ table.text > tbody > tr > td, table.text > thead > tr > th {
 <li><a class="reference internal" href="#diagnosing-the-problem-with-pillow-upstream" id="id11">Diagnosing the Problem with Pillow Upstream</a><ul>
 <li><a class="reference internal" href="#issue-5974-on-the-pillow-github-com-repository" id="id12">Issue #5974 on the Pillow github.com Repository</a><ul>
 <li><a class="reference internal" href="#diagnostic-information-26-october-2021" id="id13">Diagnostic Information (26 October 2021)</a></li>
+<li><a class="reference internal" href="#proposal-of-a-fix-from-upstream" id="id14">Proposal of a Fix from Upstream</a></li>
 </ul>
 </li>
 </ul>
@@ -851,6 +852,68 @@ following output:<ol class="arabic">
 </ol>
 </li>
 </ul>
+<p><strong>--- 4 November 2021 ---</strong></p>
+</div>
+<div class="section" id="proposal-of-a-fix-from-upstream">
+<h3><a class="toc-backref" href="#id14">Proposal of a Fix from Upstream</a></h3>
+<p><a class="reference external" href="https://github.com/DWesl">DWesl</a> mentioned in <a class="reference external" href="https://github.com/python-pillow/Pillow/issues/5795#issuecomment-959748416">a comment</a>
+on <a class="reference external" href="https://github.com/python-pillow/Pillow/issues/5795">Pillow Issue #5795</a> Pull Request
+<a class="reference external" href="https://github.com/python-pillow/Pillow/pull/5807">#5807</a> to Pillow
+Upstream.  Compiling <a class="reference external" href="https://github.com/DWesl/Pillow/tree/tkimaging-on-cygwin">the Pillow version referenced therein</a> <em>solves the
+problem</em>.</p>
+<p>I used a virtualenv to diagnose this success.  By mistake in ran <tt class="docutils literal">$ pip
+install <span class="pre">-U</span> Pillow</tt> <em>in the checked-out repository root</em>, which I made
+undone by <tt class="docutils literal">$ pip uninstall Pillow</tt>.  After this I used the proper command
+<tt class="docutils literal">$ make install</tt> in the same filesystem location (<a class="reference external" href="Logs2/b01%20make%20install.txt">[Logs2/b01]</a>).  I verified that the Pillow version
+containing the fix was made available:</p>
+<pre class="literal-block">
+$ python
+&gt;&gt;&gt; import PIL
+&gt;&gt;&gt; PIL.__version__
+'9.0.0.dev0'
+</pre>
+<p>The reproduction script contained as <a class="reference external" href="reproduce.py">reproduce.py</a> in
+this README file's repository now <em>executes flawlessly</em>.</p>
+<p>The following Cygwin dependency packages have been used:</p>
+<ul class="simple">
+<li><tt class="docutils literal">libjpeg</tt>: <tt class="docutils literal"><span class="pre">libjpeg8-2.1.1p3-1</span></tt> + <tt class="docutils literal"><span class="pre">libjpeg-devel-2.1.1p3-1</span></tt>;</li>
+<li><tt class="docutils literal">zlib</tt>: <tt class="docutils literal"><span class="pre">zlib0-1.2.11-1</span></tt> + <tt class="docutils literal"><span class="pre">zlib-devel-1.2.11-1</span></tt>;</li>
+<li><tt class="docutils literal">libtiff</tt>: <tt class="docutils literal"><span class="pre">libtiff6-4.3.0-1</span></tt> + <tt class="docutils literal"><span class="pre">libtiff-devel-4.3.0-1</span></tt>;</li>
+<li><tt class="docutils literal">libfreetype</tt>: <tt class="docutils literal"><span class="pre">libfreetype6-2.11.0-2</span></tt> +
+<tt class="docutils literal"><span class="pre">libfreetype-devel-2.11.0-2</span></tt>;</li>
+<li><tt class="docutils literal">libwebp</tt>: <tt class="docutils literal"><span class="pre">libwebp7-0.6.1-2</span></tt> + <tt class="docutils literal"><span class="pre">libwebp-devel-0.6.1-2</span></tt>;</li>
+<li><tt class="docutils literal">tcl/tk</tt>: <tt class="docutils literal"><span class="pre">tcl-8.6.11-1</span></tt> + <tt class="docutils literal"><span class="pre">tcl-devel-8.6.11-1</span></tt> + <tt class="docutils literal"><span class="pre">tcl-tk-8.6.11-1</span></tt>
++ <tt class="docutils literal"><span class="pre">tcl-tk-devel-8.6.11-1</span></tt>;</li>
+<li><tt class="docutils literal">libimagequant</tt>: <tt class="docutils literal"><span class="pre">libimagequant0-2.10.0-1</span></tt> +
+<tt class="docutils literal"><span class="pre">libimagequant-devel-2.10.0-1</span></tt>;</li>
+<li><tt class="docutils literal">libraqm</tt>: <tt class="docutils literal"><span class="pre">libraqm0-0.7.0-1</span></tt> + <tt class="docutils literal"><span class="pre">libraqm-devel-0.7.0-1</span></tt>;</li>
+<li><tt class="docutils literal">libxcb</tt>: <tt class="docutils literal"><span class="pre">libxcb1-1.14-1</span></tt> + <tt class="docutils literal"><span class="pre">libxcb-devel-1.14-1</span></tt>.</li>
+</ul>
+<p>The following dependencies have <em>not</em> been met:</p>
+<ul class="simple">
+<li><tt class="docutils literal">littlecms</tt>: I couldn't find an appropriate Cygwin package.</li>
+<li><tt class="docutils literal">openjpeg</tt>: There is <tt class="docutils literal"><span class="pre">openjpeg-1.5.2-3</span></tt> +
+<tt class="docutils literal"><span class="pre">openjpeg-devel-1.5.2-3</span></tt> available, but
+<a class="reference external" href="https://pillow.readthedocs.io/en/stable/installation.html#building-from-source">https://pillow.readthedocs.io/en/stable/installation.html#building-from-source</a>
+states: <em>Pillow does not support the earlier 1.5 series which ships
+with Debian Jessie.</em> And: <em>Pillow has been tested with openjpeg 2.0.0,
+2.1.0, 2.3.1 and 2.4.0</em>.  There is another package <tt class="docutils literal">openjpeg2</tt>, but
+this seems to not have an accompanying <tt class="docutils literal"><span class="pre">-devel</span></tt> package, so I skipped
+JPEG2000 support.</li>
+</ul>
+<p>Installing these packages pulled in a few other dependencies, which are
+skipped here.</p>
+<p>The selftest passes with these packages (see the bottom end of <a class="reference external" href="Logs2/b01%20make%20install.txt">[Logs2/b01]</a>).</p>
+<p><strong>--- 5 November 2021 ---</strong></p>
+<p>DWesl's branch was compiled by <tt class="docutils literal">$ make install</tt>, while all other previous
+attempts used <tt class="docutils literal">$ pip install <span class="pre">-U</span> Pillow</tt> and related commands.  Thus, I
+compiled also the <a class="reference external" href="https://github.com/python-pillow/Pillow">current main branch of Pillow Upstream</a> by <tt class="docutils literal">$ make install</tt>
+(<a class="reference external" href="Logs3/a02%20make%20install.txt">[Logs3/a02]</a>) and verified that the
+<a class="reference external" href="reproduce.py">reproduction script</a> still fails with it (<a class="reference external" href="Logs3/a03%20python%20reproduce.py.txt">[Logs3/a03]</a>.  <tt class="docutils literal">$ make install</tt> just calls
+<tt class="docutils literal">$ python3 setup.py install</tt>; using <tt class="docutils literal">pip</tt> creates a wheel.  By this it
+is verified also in this aspect that it are the changes in <a class="reference external" href="https://github.com/DWesl/Pillow/tree/tkimaging-on-cygwin">DWesl's
+repository</a>
+which make the <a class="reference external" href="reproduce.py">reproduction script</a> succeed.</p>
 </div>
 </div>
 </div>

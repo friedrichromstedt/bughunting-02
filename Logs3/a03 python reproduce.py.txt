@@ -1,0 +1,22 @@
+Cwd: /volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git
+Command: python reproduce.py
+
+Traceback (most recent call last):
+  File "/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/virtualenv/2021-11-05_0919/lib/python3.8/site-packages/Pillow-9.0.0.dev0-py3.8-cygwin-3.3.1-x86_64.egg/PIL/ImageTk.py", line 176, in paste
+_tkinter.TclError: invalid command name "PyImagingPhoto"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "reproduce.py", line 13, in <module>
+    photoimage = ImageTk.PhotoImage(image)
+  File "/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/virtualenv/2021-11-05_0919/lib/python3.8/site-packages/Pillow-9.0.0.dev0-py3.8-cygwin-3.3.1-x86_64.egg/PIL/ImageTk.py", line 115, in __init__
+  File "/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/virtualenv/2021-11-05_0919/lib/python3.8/site-packages/Pillow-9.0.0.dev0-py3.8-cygwin-3.3.1-x86_64.egg/PIL/ImageTk.py", line 180, in paste
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 618, in _load_backward_compatible
+  File "<frozen zipimport>", line 259, in load_module
+  File "/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/virtualenv/2021-11-05_0919/lib/python3.8/site-packages/Pillow-9.0.0.dev0-py3.8-cygwin-3.3.1-x86_64.egg/PIL/_imagingtk.py", line 9, in <module>
+  File "/volumes/erweiterung/Entwicklung/Cygwin/2021/bughunting-02.git/virtualenv/2021-11-05_0919/lib/python3.8/site-packages/Pillow-9.0.0.dev0-py3.8-cygwin-3.3.1-x86_64.egg/PIL/_imagingtk.py", line 7, in __bootstrap__
+RuntimeError: No such process
