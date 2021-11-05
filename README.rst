@@ -297,11 +297,11 @@ and ``libraqm-devel-0.7.0-1``.
 Diagnosing the Problem with Pillow Upstream
 ===========================================
 
-Issue #5974 on the Pillow github.com Repository
+Issue #5795 on the Pillow github.com Repository
 -----------------------------------------------
 
 I filed an Issue with `Pillow <https://github.com/python-pillow/Pillow>`_
-to gather additional information (`#5974
+to gather additional information (`#5795
 <https://github.com/python-pillow/Pillow/issues/5795>`_).
 
 
