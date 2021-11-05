@@ -356,8 +356,8 @@ on `Pillow Issue #5795
 <https://github.com/python-pillow/Pillow/issues/5795>`__ Pull Request
 `#5807 <https://github.com/python-pillow/Pillow/pull/5807>`__ to Pillow
 Upstream.  Compiling `the Pillow version referenced therein
-<https://github.com/DWesl/Pillow/tree/tkimaging-on-cygwin>`__ *solves the
-problem*.
+<https://github.com/DWesl/Pillow/tree/tkimaging-on-cygwin>`__ (29b92391)
+*solves the problem*.
 
 I used a virtualenv to diagnose this success.  By mistake in ran ``$ pip
 install -U Pillow`` *in the checked-out repository root*, which I made
